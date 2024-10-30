@@ -10,9 +10,18 @@ class BasePage:
     def __init__(self, driver_type):
         self.driver = DriverUtils.get_driver(driver_type)
 
+    def __base_find(self, loc, multiple=False):
+        logging.debug(f"正在查找元素: {loc}")
+        wait = WebDriverWait(self.driver, 10, 0.5)
+        if multiple:
+            return wait.until(lambda x: x.find_elements(*loc))
+        return wait.until(lambda x: x.find_element(*loc))
+
     def base_find_element(self, loc):
-        logging.debug(f"正在查找元素:{loc}")
-        return WebDriverWait(self.driver, 10, 0.5).until(lambda x: x.find_element(*loc))
+        return self.__base_find(loc, multiple=False)
+
+    def base_find_elements(self, loc):
+        return self.__base_find(loc, multiple=True)
 
     def base_click(self, loc):
         logging.debug(f"正在点击元素:{loc}")
