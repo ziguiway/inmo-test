@@ -1998,3 +1998,33 @@ Caused by: java.lang.IllegalStateException: UiAutomation not connected, UiAutoma
 2024-10-30 20:09:07,655 INFO [product.py(click_bt:23)] - 点击了蓝牙
 2024-10-30 20:09:23,120 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
 2024-10-30 20:09:23,389 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-30 20:12:59,162 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-30 20:13:03,953 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-30 20:13:03,953 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-30 20:13:03,953 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-30 20:13:03,953 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-30 20:13:03,953 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-30 20:13:04,756 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-30 20:13:05,732 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-30 20:13:06,602 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-30 20:13:07,812 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-30 20:13:09,322 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-30 20:13:09,387 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-30 20:13:10,471 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-30 20:13:28,300 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-30 20:13:28,622 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-30 20:17:13,984 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-30 20:17:18,760 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-30 20:17:18,760 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-30 20:17:18,760 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-30 20:17:18,760 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-30 20:17:18,760 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-30 20:17:19,557 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-30 20:17:20,581 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-30 20:17:21,486 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-30 20:17:22,689 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-30 20:17:23,558 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-30 20:17:24,243 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-30 20:17:25,296 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-30 20:17:39,748 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-30 20:17:40,060 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
