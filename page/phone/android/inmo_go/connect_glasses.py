@@ -16,6 +16,7 @@ class ConnectGlassesPage(BasePageAndroid):
     def connect_glasses(self):
         glasses_list = self.base_find_elements(self.__loc_glasses_list)
         glasses_list[0].click()
+        logging.info("点击了连接按钮")
 
 
 

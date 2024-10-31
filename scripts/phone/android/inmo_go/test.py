@@ -17,6 +17,7 @@ class Test:
 
     def teardown_method(self):
         DriverUtils.quit_driver(DriverType.ANDROID)
+        DriverUtils.quit_driver(DriverType.GLASS)
 
     def test_connect_glasses(self):
         self.user_agreement_page.allow_info()
@@ -26,8 +27,8 @@ class Test:
         self.tutorial_list_page.allow_find_device()
         self.tutorial_list_page.allow_read_app()
         self.product_page.click_bt()
-        self.connect_glasses.connect_glasses()
         GlassesUtils.start_bluetooth_broadcast()
+        self.connect_glasses.connect_glasses()
         bt_status = self.product_page.bt_status()
         assert bt_status in "眼镜已连接APP"
 

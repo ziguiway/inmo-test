@@ -159,4 +159,3 @@ class GlassesUtils:
             driver.execute_script('mobile: shell', {'command': 'input', 'args': ['keyevent', '26']})
 
 
-GlassesUtils.start_bluetooth_broadcast()
