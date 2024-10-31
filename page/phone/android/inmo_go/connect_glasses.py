@@ -10,7 +10,6 @@ class ConnectGlassesPage(BasePageAndroid):
 
     def __init__(self):
         super().__init__()
-        logging.info("进入连接眼镜界面")
         self.__loc_glasses_list = (By.ID, "com.inmo.inmoglasses:id/tv_device_add")
 
     def connect_glasses(self):

@@ -8,7 +8,7 @@ from base.base_page import BasePageAndroid
 class ProductPage(BasePageAndroid):
     def __init__(self):
         super().__init__()
-        logging.info("进入产品页")
+
         self.__loc_logo = (By.ID, "com.inmo.inmoglasses:id/iv_logo")
         self.__loc_sidebar = (By.ID, "com.inmo.inmoglasses:id/iv_drawer_open")
         self.__loc_bt = (By.ID, "com.inmo.inmoglasses:id/tv_bt_connect_status")
