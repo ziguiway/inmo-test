@@ -3,14 +3,22 @@ appium:
     #华为mate60pro
     - deviceName: huawei mate60pro
       platformName: Android
-      udid: FMR0223B23029252
+      udid: FMR0223B23029252 #通过adb devices获取
       appPackage: com.inmo.inmoglasses
       appActivity: com.inmo.inmolens.SplashActivity
       #noReset: true
       automationName: uiautomator2
       serverUrl: "http://127.0.0.1:4723"
-
-      #模拟器
+    #inmo go2
+    - deviceName: inmo go2
+      platformName: Android
+      udid: YM00SEC7B02551
+      appPackage: com.android.settings
+      appActivity: com.android.settings.Settings
+      #noReset: true
+      automationName: uiautomator2
+      serverUrl: "http://127.0.0.1:4724"
+    #模拟器
     - deviceName: simulator
       platformName: Android
       udid: emulator-5554
@@ -18,7 +26,8 @@ appium:
       appActivity: com.inmo.inmolens.SplashActivity
       #noReset: true
       automationName: uiautomator2
-      serverUrl: "http://127.0.0.1:4724"
+      serverUrl: "http://127.0.0.1:4725"
+
 
 
 

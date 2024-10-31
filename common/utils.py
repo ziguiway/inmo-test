@@ -7,6 +7,7 @@ from datetime import datetime
 import yaml
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
+from selenium.common import NoSuchElementException
 
 from common.type import DriverType, UdidType
 from config import BASE_PATH
@@ -49,6 +50,7 @@ class DriverUtils:
             DriverType.GLASS: UdidType.GLASS.value,
             # DriverType.IOS: UdidType.IOS.value  # 确保添加 iOS 对应的 udid
         }
+
         udid = udid_map.get(driver_type)
 
         config_list = FileUtils.load_yaml_config(f"{BASE_PATH}/config.yaml").get("appium").get('devices')
@@ -136,3 +138,24 @@ class FileUtils:
         except Exception as e:
             logging.error(f"读取 YAML 配置出错: {e}")
             return None
+
+
+class GlassesUtils:
+    @staticmethod
+    def is_screen_on(driver):
+        try:
+            screen_status = driver.execute_script("mobile: shell", {"command": "dumpsys power | grep 'mWakefulness'"})
+            return 'Awake' in screen_status
+        except Exception:  # 捕获更广泛的异常
+            return False
+
+    @classmethod
+    def start_bluetooth_broadcast(cls):
+        driver = DriverUtils.get_driver(DriverType.GLASS)
+        is_on = cls.is_screen_on(driver)
+        if is_on:
+            driver.lock()
+            driver.unlock()
+        else:
+            driver.unlock()
+
