@@ -405,3 +405,185 @@ UnknownError: An unknown server-side error occurred while processing the command
 2024-10-31 11:37:32,858 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
 2024-10-31 11:37:33,181 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
 2024-10-31 11:37:33,652 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 11:39:19,509 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:39:24,314 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:39:24,314 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:39:24,314 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:39:24,314 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:39:24,314 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:39:25,111 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:39:26,111 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:39:26,983 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:39:28,097 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:39:28,982 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:39:30,028 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:39:47,984 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:39:52,706 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:39:52,706 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:39:52,707 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:39:52,707 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:39:52,707 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:39:53,493 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:39:54,473 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:39:55,354 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:39:56,551 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:39:58,192 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:39:58,270 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:39:59,341 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:39:59,341 INFO [utils.py(start_bluetooth_broadcast:154)] - 发起蓝牙广播
+2024-10-31 11:40:05,782 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:40:06,784 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:40:37,786 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:40:38,211 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 11:40:59,736 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:41:04,447 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:41:04,447 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:41:04,447 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:41:04,447 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:41:04,448 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:41:05,246 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:41:06,183 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:41:07,123 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:41:08,337 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:41:09,203 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:41:09,912 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:41:10,968 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:41:10,968 INFO [utils.py(start_bluetooth_broadcast:154)] - 发起蓝牙广播
+2024-10-31 11:41:17,204 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:41:18,659 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:41:49,564 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:41:50,038 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 11:42:11,864 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:42:16,554 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:42:16,554 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:42:16,554 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:42:16,554 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:42:16,554 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:42:17,319 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:42:18,331 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:42:19,200 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:42:20,396 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:42:21,268 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:42:21,955 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:42:22,993 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:42:22,993 INFO [utils.py(start_bluetooth_broadcast:154)] - 发起蓝牙广播
+2024-10-31 11:42:29,384 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:42:30,734 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:42:57,597 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:43:03,435 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:43:03,436 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:43:03,436 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:43:03,436 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:43:03,436 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:43:04,218 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:43:05,182 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:43:06,078 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:43:07,192 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:43:08,698 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:43:08,772 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:43:09,810 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:43:09,811 INFO [utils.py(start_bluetooth_broadcast:154)] - 发起蓝牙广播
+2024-10-31 11:43:17,434 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:43:18,246 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:43:22,281 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 11:43:22,641 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:43:23,193 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 11:45:30,124 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:45:34,909 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:45:34,910 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:45:34,910 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:45:34,910 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:45:34,910 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:45:35,705 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:45:36,713 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:45:37,597 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:45:38,814 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:45:40,305 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:45:40,368 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:45:41,400 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:45:41,400 INFO [utils.py(start_bluetooth_broadcast:154)] - 发起蓝牙广播
+2024-10-31 11:45:47,817 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:45:47,905 INFO [utils.py(start_bluetooth_broadcast:164)] - 屏幕已开启，模拟按下电源键
+2024-10-31 11:45:48,669 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:45:54,347 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 11:45:54,674 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:45:55,217 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 11:46:37,524 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:46:42,185 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:46:42,185 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:46:42,185 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:46:42,185 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:46:42,185 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:46:42,941 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:46:43,960 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:46:44,830 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:46:45,944 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:46:46,828 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:46:47,558 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:46:48,620 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:46:48,620 INFO [utils.py(start_bluetooth_broadcast:154)] - 发起蓝牙广播
+2024-10-31 11:46:55,005 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:46:55,094 INFO [utils.py(start_bluetooth_broadcast:164)] - 屏幕已开启，模拟按下电源键
+2024-10-31 11:46:55,792 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:47:01,505 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 11:47:01,803 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:47:02,304 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 11:47:40,600 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:47:45,397 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:47:45,397 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:47:45,397 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:47:45,398 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:47:45,398 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:47:46,213 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:47:47,178 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:47:48,087 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:47:49,193 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:47:50,086 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:47:51,716 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:47:51,883 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:47:51,884 INFO [utils.py(start_bluetooth_broadcast:154)] - 发起蓝牙广播
+2024-10-31 11:47:58,197 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:47:58,468 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:48:02,982 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 11:48:03,238 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:48:03,726 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 11:48:54,864 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:48:59,593 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:48:59,593 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:48:59,594 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:48:59,594 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:48:59,594 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:49:00,411 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:49:02,085 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:49:02,944 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:49:04,052 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:49:04,940 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:49:05,630 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:49:06,653 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:49:06,653 INFO [utils.py(start_bluetooth_broadcast:154)] - 开始发起蓝牙广播
+2024-10-31 11:49:13,026 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:49:13,026 INFO [utils.py(start_bluetooth_broadcast:158)] - 成功发起蓝牙广播
+2024-10-31 11:49:13,328 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:49:17,321 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 11:49:17,642 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:49:18,153 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 11:49:58,484 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:50:03,203 INFO [utils.py(__get_driver:31)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:50:03,203 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:50:03,203 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:50:03,203 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:50:03,203 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:50:03,992 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:50:05,003 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:50:05,911 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:50:07,137 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:50:08,633 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:50:08,714 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:50:09,761 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:50:09,763 INFO [utils.py(start_bluetooth_broadcast:154)] - 开始发起蓝牙广播
+2024-10-31 11:50:16,150 INFO [utils.py(__get_driver:31)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:50:16,150 INFO [utils.py(start_bluetooth_broadcast:158)] - 成功发起蓝牙广播
+2024-10-31 11:50:16,437 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 11:50:21,330 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 11:50:21,629 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:50:22,110 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功

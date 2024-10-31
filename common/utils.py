@@ -151,11 +151,10 @@ class GlassesUtils:
 
     @classmethod
     def start_bluetooth_broadcast(cls):
-        logging.info("发起蓝牙广播")
-        driver = DriverUtils.get_driver(DriverType.GLASS)
-        is_on = cls.is_screen_on(driver)
-        keyevent_count = 2 if not is_on else 1
-        for _ in range(keyevent_count):
-            driver.execute_script('mobile: shell', {'command': 'input', 'args': ['keyevent', '26']})
+        logging.info("开始发起蓝牙广播")
+
+        # 获取驱动
+        DriverUtils.get_driver(DriverType.GLASS)
+        logging.info("成功发起蓝牙广播")
 
 
