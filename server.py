@@ -6,9 +6,12 @@ from config import BASE_PATH
 
 
 
-'''
-'''
+
 class AppiumServer:
+    """
+    Appium Server
+    疑似Windows权限导致命令不能执行
+    """
 
     def __init__(self):
         self.processes = []

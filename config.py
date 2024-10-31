@@ -7,7 +7,6 @@ from colorama import Fore, Style, init
 # 项目根路径
 BASE_PATH = os.path.dirname(__file__)
 
-# appium服务地址
 
 
 # 日志的配置

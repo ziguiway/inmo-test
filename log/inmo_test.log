@@ -1123,3 +1123,218 @@ urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723
 2024-10-31 15:53:33,007 INFO [product.py(__init__:11)] - 进入产品页
 2024-10-31 15:53:33,007 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
 2024-10-31 15:53:33,268 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:04:42,242 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 16:04:47,528 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:04:47,528 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 16:04:47,528 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 16:04:47,528 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 16:04:47,528 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 16:04:48,331 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 16:04:49,273 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 16:04:50,127 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 16:04:51,256 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 16:04:52,120 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 16:04:52,847 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 16:04:53,891 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 16:04:53,893 INFO [utils.py(start_bluetooth_broadcast:163)] - 开始发起蓝牙广播
+2024-10-31 16:05:00,205 INFO [utils.py(__get_driver:32)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 16:05:00,341 INFO [utils.py(start_bluetooth_broadcast:165)] - 成功发起蓝牙广播
+2024-10-31 16:05:00,712 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 16:05:05,296 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 16:05:05,623 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:05:06,057 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 16:05:10,796 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:05:10,796 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 16:05:10,796 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 16:05:10,798 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 16:05:10,798 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 16:05:11,088 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:13:32,564 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 16:13:37,285 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:13:37,285 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 16:13:37,285 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 16:13:37,285 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 16:13:37,285 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 16:13:38,067 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 16:13:39,043 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 16:13:39,984 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 16:13:41,077 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 16:13:41,999 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 16:13:42,713 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 16:13:43,722 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 16:13:43,722 INFO [utils.py(start_bluetooth_broadcast:163)] - 开始发起蓝牙广播
+2024-10-31 16:13:50,101 INFO [utils.py(__get_driver:32)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 16:13:50,210 INFO [utils.py(start_bluetooth_broadcast:165)] - 成功发起蓝牙广播
+2024-10-31 16:13:50,515 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 16:13:56,248 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 16:13:56,563 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:13:57,029 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 16:14:01,706 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:14:01,706 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 16:14:01,706 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 16:14:01,706 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 16:14:01,706 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 16:14:02,014 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:17:52,874 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 16:17:57,651 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:17:57,651 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 16:17:57,651 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 16:17:57,651 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 16:17:57,651 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 16:17:58,461 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 16:17:59,381 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 16:18:00,267 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 16:18:01,488 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 16:18:02,385 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 16:18:03,959 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:18:08,667 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:18:08,667 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 16:18:08,667 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 16:18:08,667 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 16:18:08,667 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 16:18:08,958 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:18:17,624 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 16:18:22,325 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:18:22,325 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 16:18:22,325 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 16:18:22,325 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 16:18:22,325 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 16:18:23,118 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 16:18:24,103 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 16:18:24,967 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 16:18:26,083 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 16:18:26,982 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 16:18:27,696 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 16:18:28,716 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 16:18:28,717 INFO [utils.py(start_bluetooth_broadcast:163)] - 开始发起蓝牙广播
+2024-10-31 16:18:35,099 INFO [utils.py(__get_driver:32)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 16:18:35,211 INFO [utils.py(start_bluetooth_broadcast:165)] - 成功发起蓝牙广播
+2024-10-31 16:18:35,584 INFO [connect_glasses.py(connect_glasses:19)] - 点击了连接按钮
+2024-10-31 16:18:40,902 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 16:18:41,267 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:18:41,721 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 16:18:46,508 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:18:46,508 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 16:18:46,509 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 16:18:46,509 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 16:18:46,509 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 16:18:46,803 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:23:30,926 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 16:23:35,695 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:23:36,470 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-10-31 16:23:37,882 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-10-31 16:23:38,789 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-10-31 16:23:39,990 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-10-31 16:23:40,925 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-10-31 16:23:41,677 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-10-31 16:23:42,751 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 16:23:42,751 INFO [utils.py(start_bluetooth_broadcast:163)] - 开始发起蓝牙广播
+2024-10-31 16:23:49,028 INFO [utils.py(__get_driver:32)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 16:23:49,147 INFO [utils.py(start_bluetooth_broadcast:165)] - 成功发起蓝牙广播
+2024-10-31 16:23:49,427 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-10-31 16:23:54,018 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 16:23:54,370 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:23:54,870 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
+2024-10-31 16:23:59,562 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:23:59,883 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:45:11,650 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 16:45:11,928 ERROR [utils.py(__handle_exception:20)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 30, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 229, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 319, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-10-31 16:45:11,969 ERROR [utils.py(__handle_exception:20)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 30, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 229, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 319, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-10-31 16:45:12,024 ERROR [utils.py(__handle_exception:20)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 30, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 229, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 319, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-10-31 16:45:12,070 ERROR [utils.py(__handle_exception:20)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 30, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 229, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 319, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-10-31 16:45:54,267 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 16:45:59,330 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 16:46:04,465 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-10-31 16:46:05,180 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-10-31 16:46:06,085 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-10-31 16:46:07,280 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-10-31 16:46:08,140 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-10-31 16:46:08,868 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-10-31 16:46:09,918 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 16:46:09,918 INFO [utils.py(start_bluetooth_broadcast:163)] - 开始发起蓝牙广播
+2024-10-31 16:46:16,313 INFO [utils.py(__get_driver:32)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 16:46:16,415 INFO [utils.py(start_bluetooth_broadcast:165)] - 成功发起蓝牙广播
+2024-10-31 16:46:16,713 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-10-31 16:46:21,228 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 16:46:21,561 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 16:46:22,125 INFO [utils.py(__quit_driver:42)] - 退出 DriverType.GLASS driver 成功
