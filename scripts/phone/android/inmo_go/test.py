@@ -1,5 +1,3 @@
-from selenium.webdriver.common.by import By
-
 from common.type import DriverType
 from common.utils import DriverUtils,GlassesUtils
 from page.phone.android.inmo_go.connect_glasses import ConnectGlassesPage
@@ -31,6 +29,10 @@ class Test:
         self.connect_glasses.connect_glasses()
         bt_status = self.product_page.bt_status()
         assert bt_status in "眼镜已连接APP"
+
+
+    def test_enter_translation(self):
+        pass
 
     # def test_disagree(self):
     #     self.user_agreement_page.disagree()

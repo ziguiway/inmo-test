@@ -8,16 +8,17 @@ import yaml
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 
-from common.type import DriverType, UdidType
+from common.type import DriverType
 from config import BASE_PATH
 
 
 class DriverUtils:
-    __drivers = {
-        DriverType.ANDROID: None,
-        DriverType.IOS: None,
-        DriverType.GLASS: None
-    }
+    __drivers = {dt: None for dt in DriverType}
+
+    @classmethod
+    def __handle_exception(cls, e, context):
+        logging.error(f"{context}失败: {traceback.format_exc()}")
+        return None
 
     @classmethod
     def __get_driver(cls, driver_type):
@@ -28,10 +29,9 @@ class DriverUtils:
                 options = UiAutomator2Options().load_capabilities(config)
                 cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
                 cls.__drivers[driver_type].implicitly_wait(30)
-                logging.info(f'获取 {driver_type} Driver 成功')
+                logging.info(f"获取 {driver_type} Driver 成功")
             except Exception as e:
-                logging.error(f'初始化 {driver_type} 驱动程序失败: {traceback.format_exc()}')
-                cls.__drivers[driver_type] = None
+                cls.__handle_exception(e, f"初始化 {driver_type} 驱动程序")
         return cls.__drivers[driver_type]
 
     @classmethod
@@ -39,33 +39,23 @@ class DriverUtils:
         driver = cls.__drivers[driver_type]
         if driver:
             driver.quit()
-            logging.info(f'退出 {driver_type} driver 成功')
+            logging.info(f"退出 {driver_type} driver 成功")
             cls.__drivers[driver_type] = None
 
     @classmethod
     def __get_driver_config(cls, driver_type):
         udid_map = {
-            DriverType.ANDROID: UdidType.HUAWEI.value,
-            DriverType.GLASS: UdidType.GLASS.value,
-            # DriverType.IOS: UdidType.IOS.value  # 确保添加 iOS 对应的 udid
+            # 改成对应的udid
+            DriverType.ANDROID: DriverType.ANDROID.value,
+            DriverType.GLASS: DriverType.GLASS.value,
+            # DriverType.IOS: DriverType.IOS.value
         }
-
         udid = udid_map.get(driver_type)
-
         config_list = FileUtils.load_yaml_config(f"{BASE_PATH}/config.yaml").get("appium").get('devices')
         for config in config_list:
             if config.get('udid') == udid:
-                return {
-                    "udid": config.get('udid'),
-                    "platformName": config.get('platformName'),
-                    "automationName": config.get('automationName'),
-                    "deviceName": config.get('deviceName'),
-                    "appPackage": config.get('appPackage'),
-                    "appActivity": config.get('appActivity'),
-                    "serverUrl": config.get('serverUrl'),
-                    "noReset": config.get('noReset'),
-                }
-        raise ValueError(f"未找到适用于 {driver_type} 的配置")
+                return config
+        raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
 
     @classmethod
     def get_driver(cls, driver_type):
@@ -74,6 +64,16 @@ class DriverUtils:
     @classmethod
     def quit_driver(cls, driver_type):
         cls.__quit_driver(driver_type)
+
+
+class TimeUtils:
+    @staticmethod
+    def get_current_timestamp():
+        return time.time()
+
+    @staticmethod
+    def format_timestamp(timestamp, format_str="%Y-%m-%d %H:%M:%S"):
+        return datetime.fromtimestamp(timestamp).strftime(format_str)
 
 
 class TimeUtils:
@@ -142,6 +142,11 @@ class FileUtils:
 class GlassesUtils:
     @staticmethod
     def is_screen_on(driver):
+        """
+        检查屏幕是否处于激活状态
+        :param driver:
+        :return: bool
+        """
         try:
             screen_status = driver.execute_script("mobile: shell", {"command": "dumpsys power | grep 'mWakefulness'"})
             return 'Awake' in screen_status
@@ -151,10 +156,10 @@ class GlassesUtils:
 
     @classmethod
     def start_bluetooth_broadcast(cls):
+        """
+        发起蓝牙广播
+        :return:
+        """
         logging.info("开始发起蓝牙广播")
-
-        # 获取驱动
-        DriverUtils.get_driver(DriverType.GLASS)
+        DriverUtils.get_driver(DriverType.GLASS).unlock()
         logging.info("成功发起蓝牙广播")
-
-

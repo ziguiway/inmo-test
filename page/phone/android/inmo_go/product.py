@@ -26,6 +26,10 @@ class ProductPage(BasePageAndroid):
         self.base_click(self.__loc_wifi)
         logging.info("点击了wifi")
 
+    def adjust_brightness(self):
+        self.base_move_seekbar(self.__loc_brightness,99)
+
+
     def bt_status(self):
         text = self.base_get_text(self.__loc_bt)
         logging.info(f"获取了蓝牙连接状态:{text}")
@@ -35,4 +39,5 @@ class ProductPage(BasePageAndroid):
         text = self.base_get_text(self.__loc_wifi)
         logging.info(f"获取了wifi连接状态:{text}")
         return text
+
 

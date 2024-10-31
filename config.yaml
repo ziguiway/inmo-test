@@ -6,7 +6,7 @@ appium:
       udid: FMR0223B23029252 #通过adb devices获取
       appPackage: com.inmo.inmoglasses
       appActivity: com.inmo.inmolens.SplashActivity
-      #noReset: true
+#      noReset: true
       automationName: uiautomator2
       serverUrl: "http://127.0.0.1:4723"
     #inmo go2

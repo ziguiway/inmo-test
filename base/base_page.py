@@ -51,6 +51,32 @@ class BasePage:
         logging.debug(f"正在获取元素:{loc}的文本")
         return self.base_find_element(loc).text
 
+    def base_move_seekbar(self, loc, percent, time=100):
+        """
+        移动拖动条到指定的百分比位置。
+
+        :param loc: 元素定位器
+        :param percent: 目标位置的百分比（0 到 100 之间）
+        :param time: 滑动时间，默认为100毫秒
+        """
+        if not (0 <= percent <= 100):
+            raise ValueError("percent 参数必须在 0 到 100 之间")
+
+        # 获取拖动条的元素
+        element = self.base_find_element(loc)
+        # 获取元素的宽度和位置
+        width = element.size.get("width")
+        x = element.location.get("x")
+        y = element.location.get("y")
+
+        # 计算目标坐标
+        target_x = x + int(width * (percent / 100))
+
+        # 执行滑动操作
+        self.driver.swipe(x, y, target_x, y, time)
+
+
+
 
 class BasePageIos(BasePage):
     def __init__(self):
