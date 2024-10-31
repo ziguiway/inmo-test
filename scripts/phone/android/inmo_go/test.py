@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 from common.type import DriverType
-from common.utils import DriverUtils
+from common.utils import DriverUtils,GlassesUtils
 from page.phone.android.inmo_go.connect_glasses import ConnectGlassesPage
 from page.phone.android.inmo_go.product import ProductPage
 from page.phone.android.inmo_go.tutorial_list import TutorialListPage
@@ -27,7 +27,7 @@ class Test:
         self.tutorial_list_page.allow_read_app()
         self.product_page.click_bt()
         self.connect_glasses.connect_glasses()
-
+        GlassesUtils.start_bluetooth_broadcast()
         bt_status = self.product_page.bt_status()
         assert bt_status in "眼镜已连接APP"
 

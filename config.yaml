@@ -13,8 +13,8 @@ appium:
     - deviceName: inmo go2
       platformName: Android
       udid: YM00SEC7B02551
-      appPackage: com.android.settings
-      appActivity: com.android.settings.Settings
+      appPackage: com.arglasses.launcher
+      appActivity: com.go2glasses.launcher.ui.launcher.LauncherActivity
       #noReset: true
       automationName: uiautomator2
       serverUrl: "http://127.0.0.1:4724"

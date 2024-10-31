@@ -87,3 +87,51 @@ UnknownError: An unknown server-side error occurred while processing the command
     at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
 
 2024-10-31 10:10:17,527 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:06:23,660 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:06:25,813 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021A8EC23920>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session
+2024-10-31 11:06:27,858 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021A8ECCEA20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session
+2024-10-31 11:06:55,705 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:07:00,542 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:07:00,542 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:07:00,542 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:07:00,542 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:07:00,542 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:07:01,351 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:07:02,678 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:07:03,555 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:07:04,687 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:07:05,548 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:07:06,261 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:07:07,288 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:07:22,888 INFO [utils.py(__get_driver:32)] - 获取 DriverType.GLASS Driver 成功
+2024-10-31 11:07:25,119 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 11:07:25,414 INFO [utils.py(__quit_driver:43)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:08:58,832 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:09:03,558 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:09:03,558 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:09:03,558 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:09:03,558 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:09:03,558 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:09:04,366 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:09:05,440 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:09:06,300 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:09:07,490 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:09:08,991 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:09:09,077 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:09:10,075 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:09:17,841 INFO [product.py(bt_status:31)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-10-31 11:09:18,127 INFO [utils.py(__quit_driver:43)] - 退出 DriverType.ANDROID driver 成功
+2024-10-31 11:11:26,273 INFO [__init__.py(<module>:6)] - 日志配置完成
+2024-10-31 11:11:30,981 INFO [utils.py(__get_driver:32)] - 获取 DriverType.ANDROID Driver 成功
+2024-10-31 11:11:30,982 INFO [user_agreement.py(__init__:11)] - 进入User agreement页面
+2024-10-31 11:11:30,982 INFO [tutorial_list.py(__init__:11)] - 进入教程页
+2024-10-31 11:11:30,982 INFO [product.py(__init__:11)] - 进入产品页
+2024-10-31 11:11:30,982 INFO [connect_glasses.py(__init__:13)] - 进入连接眼镜界面
+2024-10-31 11:11:31,802 INFO [user_agreement.py(allow_info:19)] - 点击允许通知
+2024-10-31 11:11:32,787 INFO [user_agreement.py(agree:27)] - 点击同意并继续
+2024-10-31 11:11:33,633 INFO [tutorial_list.py(go2:26)] - 点击go2
+2024-10-31 11:11:34,847 INFO [tutorial_list.py(allow_location:30)] - 点击允许定位
+2024-10-31 11:11:36,272 INFO [tutorial_list.py(allow_find_device:38)] - 点击允许查找设备
+2024-10-31 11:11:36,340 INFO [tutorial_list.py(allow_read_app:46)] - 点击允许读取应用
+2024-10-31 11:11:37,389 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-10-31 11:12:08,355 INFO [utils.py(__quit_driver:43)] - 退出 DriverType.ANDROID driver 成功
