@@ -7,7 +7,6 @@ from datetime import datetime
 import yaml
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
-from selenium.common import NoSuchElementException
 
 from common.type import DriverType, UdidType
 from config import BASE_PATH
@@ -146,16 +145,18 @@ class GlassesUtils:
         try:
             screen_status = driver.execute_script("mobile: shell", {"command": "dumpsys power | grep 'mWakefulness'"})
             return 'Awake' in screen_status
-        except Exception:  # 捕获更广泛的异常
+        except Exception as e:  # 捕获异常并记录
+            logging.error(f"Error checking screen status: {e}")
             return False
 
     @classmethod
     def start_bluetooth_broadcast(cls):
+        logging.info("发起蓝牙广播")
         driver = DriverUtils.get_driver(DriverType.GLASS)
         is_on = cls.is_screen_on(driver)
-        if is_on:
-            driver.lock()
-            driver.unlock()
-        else:
-            driver.unlock()
+        keyevent_count = 2 if not is_on else 1
+        for _ in range(keyevent_count):
+            driver.execute_script('mobile: shell', {'command': 'input', 'args': ['keyevent', '26']})
 
+
+GlassesUtils.start_bluetooth_broadcast()
