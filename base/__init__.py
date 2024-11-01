@@ -1,6 +1,3 @@
-import logging
+from config import LoggerSingleton
 
-from config import basic_log_config
-
-basic_log_config()
-logging.info("日志配置完成")
+logger = LoggerSingleton.get_instance().get_logger()
