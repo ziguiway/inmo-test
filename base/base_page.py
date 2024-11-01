@@ -7,8 +7,8 @@ from common.utils import DriverUtils
 
 
 class BasePage:
-    def __init__(self, driver_type):
-        self.driver = DriverUtils.get_driver(driver_type)
+    def __init__(self, driver):
+        self.driver = driver
 
     def __base_find(self, loc, multiple=False):
         logging.debug(f"正在查找元素: {loc}")
@@ -79,10 +79,10 @@ class BasePage:
 
 
 class BasePageIos(BasePage):
-    def __init__(self):
-        super().__init__(DriverType.IOS)
+    def __init__(self,driver):
+        super().__init__(driver)
 
 
 class BasePageAndroid(BasePage):
-    def __init__(self):
-        super().__init__(DriverType.ANDROID)
+    def __init__(self,driver):
+        super().__init__(driver)

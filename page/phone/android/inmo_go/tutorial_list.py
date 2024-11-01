@@ -6,8 +6,8 @@ from base.base_page import BasePageAndroid
 
 
 class TutorialListPage(BasePageAndroid):
-    def __init__(self):
-        super().__init__()
+    def __init__(self,driver):
+        super().__init__(driver)
         self.__loc_go2 = (By.ID, 'com.inmo.inmoglasses:id/iv_device_bg')
 
         self.__loc_allow_location = (

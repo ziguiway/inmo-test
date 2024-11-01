@@ -8,10 +8,11 @@ from page.phone.android.inmo_go.user_agreement import UserAgreementPage
 
 class Test:
     def setup_method(self):
-        self.user_agreement_page = UserAgreementPage()
-        self.tutorial_list_page = TutorialListPage()
-        self.product_page = ProductPage()
-        self.connect_glasses = ConnectGlassesPage()
+        driver = DriverUtils.get_driver(DriverType.ANDROID)
+        self.user_agreement_page = UserAgreementPage(driver)
+        self.tutorial_list_page = TutorialListPage(driver)
+        self.product_page = ProductPage(driver)
+        self.connect_glasses = ConnectGlassesPage(driver)
 
     def teardown_method(self):
         DriverUtils.quit_driver(DriverType.ANDROID)

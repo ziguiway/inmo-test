@@ -21,10 +21,10 @@ class DriverUtils:
         return None
 
     @classmethod
-    def __get_driver(cls, driver_type):
+    def __get_driver(cls, driver_type, is_reset):
         if cls.__drivers[driver_type] is None:
             try:
-                config = cls.__get_driver_config(driver_type)
+                config = cls.__get_driver_config(driver_type, is_reset)
                 appium_server_url = config.get('serverUrl')
                 options = UiAutomator2Options().load_capabilities(config)
                 cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
@@ -43,7 +43,7 @@ class DriverUtils:
             cls.__drivers[driver_type] = None
 
     @classmethod
-    def __get_driver_config(cls, driver_type):
+    def __get_driver_config(cls, driver_type, is_reset):
         udid_map = {
             # 改成对应的udid
             DriverType.ANDROID: DriverType.ANDROID.value,
@@ -54,12 +54,13 @@ class DriverUtils:
         config_list = FileUtils.load_yaml_config(f"{BASE_PATH}/config.yaml").get("appium").get('devices')
         for config in config_list:
             if config.get('udid') == udid:
+                config['noReset'] = not is_reset
                 return config
         raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
 
     @classmethod
-    def get_driver(cls, driver_type):
-        return cls.__get_driver(driver_type)
+    def get_driver(cls, driver_type, is_reset=True):
+        return cls.__get_driver(driver_type, is_reset)
 
     @classmethod
     def quit_driver(cls, driver_type):
@@ -163,3 +164,5 @@ class GlassesUtils:
         logging.info("开始发起蓝牙广播")
         DriverUtils.get_driver(DriverType.GLASS).unlock()
         logging.info("成功发起蓝牙广播")
+
+

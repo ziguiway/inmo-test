@@ -6,8 +6,8 @@ from base.base_page import BasePageAndroid
 
 
 class UserAgreementPage(BasePageAndroid):
-    def __init__(self):
-        super().__init__()
+    def __init__(self,driver):
+        super().__init__(driver)
         self.__loc_allow = (By.ID, 'com.android.permissioncontroller:id/permission_allow_button')
         self.__loc_deny = (By.ID, 'com.android.permissioncontroller:id/permission_deny_button')
         self.__loc_agree = (By.ID, 'com.inmo.inmoglasses:id/tv_reset_sure')

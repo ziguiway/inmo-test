@@ -8,8 +8,8 @@ from base.base_page import BasePageAndroid
 
 class ConnectGlassesPage(BasePageAndroid):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self,driver):
+        super().__init__(driver)
         self.__loc_glasses_list = (By.ID, "com.inmo.inmoglasses:id/tv_device_add")
 
     def connect_glasses(self):
