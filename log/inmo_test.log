@@ -803,3 +803,471 @@ urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4724
 2024-11-01 11:29:03,892 INFO [utils.py(__quit_driver:44)] - 退出 DriverType.GLASS driver 成功
 2024-11-01 11:29:08,430 INFO [utils.py(__get_driver:34)] - 获取 DriverType.ANDROID Driver 成功
 2024-11-01 11:29:08,693 INFO [utils.py(__quit_driver:44)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 11:39:19,707 INFO [server.py(check_appium_status:72)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-01 11:39:19,711 INFO [server.py(check_appium_status:72)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 11:39:19,712 INFO [server.py(start_all:34)] - 所有 Appium 服务器已经在运行，无需重新启动.
+2024-11-01 11:39:24,433 INFO [utils.py(__get_driver:34)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 11:39:46,691 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 11:39:47,363 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 11:39:48,248 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 11:39:49,451 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 11:39:50,951 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 11:39:51,023 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 11:39:52,020 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 11:39:52,020 INFO [utils.py(start_bluetooth_broadcast:166)] - 开始发起蓝牙广播
+2024-11-01 11:39:58,290 INFO [utils.py(__get_driver:34)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 11:39:58,394 INFO [utils.py(start_bluetooth_broadcast:168)] - 成功发起蓝牙广播
+2024-11-01 11:39:58,706 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 11:40:03,594 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 11:40:03,938 INFO [utils.py(__quit_driver:44)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 11:40:04,436 INFO [utils.py(__quit_driver:44)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 11:40:08,928 INFO [utils.py(__get_driver:34)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 11:40:09,212 INFO [utils.py(__quit_driver:44)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:36:36,133 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:36:39,178 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:36:42,234 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:36:45,284 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:36:48,314 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:36:51,356 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:36:56,449 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:36:59,494 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:37:02,520 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:37:05,557 WARNING [server.py(check_appium_status:75)] - 连接失败，正在重试...
+2024-11-01 13:39:02,070 WARNING [server.py(check_appium_status:81)] - 连接失败，正在重试...
+2024-11-01 13:39:05,120 WARNING [server.py(check_appium_status:81)] - 连接失败，正在重试...
+2024-11-01 13:39:08,162 WARNING [server.py(check_appium_status:81)] - 连接失败，正在重试...
+2024-11-01 13:39:11,211 WARNING [server.py(check_appium_status:81)] - 连接失败，正在重试...
+2024-11-01 13:39:14,265 WARNING [server.py(check_appium_status:81)] - 连接失败，正在重试...
+2024-11-01 13:39:59,037 WARNING [server.py(check_appium_status:77)] - 连接失败，正在重试...
+2024-11-01 13:40:02,082 WARNING [server.py(check_appium_status:77)] - 连接失败，正在重试...
+2024-11-01 13:40:05,125 WARNING [server.py(check_appium_status:77)] - 连接失败，正在重试...
+2024-11-01 13:40:08,173 WARNING [server.py(check_appium_status:77)] - 连接失败，正在重试...
+2024-11-01 13:40:11,189 WARNING [server.py(check_appium_status:77)] - 连接失败，正在重试...
+2024-11-01 13:40:14,218 WARNING [server.py(check_appium_status:77)] - 连接失败，正在重试...
+2024-11-01 13:40:17,267 WARNING [server.py(check_appium_status:77)] - 连接失败，正在重试...
+2024-11-01 13:41:36,092 INFO [server.py(start_by_port:25)] - 在端口 4723 启动 Appium 服务器
+2024-11-01 13:41:38,136 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:41:41,183 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:41:44,215 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:41:47,253 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:41:50,305 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:41:53,350 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:41:56,392 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:41:59,425 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:02,463 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:05,492 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:08,528 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:08,528 ERROR [server.py(check_appium_status:66)] - 等待 Appium 服务器在端口 4723 超时.
+2024-11-01 13:42:08,528 ERROR [server.py(start_by_port:28)] - 在端口 4723 启动的 Appium 服务器未能成功启动.
+2024-11-01 13:42:08,544 INFO [server.py(start_by_port:25)] - 在端口 4724 启动 Appium 服务器
+2024-11-01 13:42:10,591 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:13,641 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:16,685 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:19,723 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:22,762 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:42:23,846 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 13:42:23,859 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-01 13:42:23,863 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 13:42:32,452 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 13:42:33,216 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 13:42:34,272 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 13:42:35,122 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 13:42:36,303 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 13:42:37,721 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 13:42:37,786 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 13:42:38,808 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 13:42:38,808 INFO [utils.py(start_bluetooth_broadcast:140)] - 开始发起蓝牙广播
+2024-11-01 13:42:44,829 INFO [utils.py(__get_driver:35)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 13:42:45,030 INFO [utils.py(start_bluetooth_broadcast:142)] - 成功发起蓝牙广播
+2024-11-01 13:42:45,308 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 13:42:51,430 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 13:42:51,772 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:42:52,286 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 13:42:56,949 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 13:42:57,722 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 13:42:58,660 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 13:43:00,012 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 13:43:01,211 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 13:43:02,725 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 13:43:02,814 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 13:43:03,829 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 13:43:03,829 INFO [utils.py(start_bluetooth_broadcast:140)] - 开始发起蓝牙广播
+2024-11-01 13:43:09,551 INFO [utils.py(__get_driver:35)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 13:43:09,702 INFO [utils.py(start_bluetooth_broadcast:142)] - 成功发起蓝牙广播
+2024-11-01 13:43:10,145 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 13:43:15,048 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 13:43:15,394 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:43:15,891 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 13:44:14,809 INFO [server.py(start_by_port:25)] - 在端口 4723 启动 Appium 服务器
+2024-11-01 13:44:16,849 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-01 13:44:17,861 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-01 13:44:17,876 INFO [server.py(start_by_port:25)] - 在端口 4724 启动 Appium 服务器
+2024-11-01 13:44:19,930 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 13:44:19,935 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-01 13:44:19,941 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 13:44:24,891 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 13:44:25,670 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 13:44:26,640 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 13:44:27,514 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 13:44:28,713 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 13:44:29,602 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 13:44:30,283 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 13:44:31,340 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 13:44:31,340 INFO [utils.py(start_bluetooth_broadcast:140)] - 开始发起蓝牙广播
+2024-11-01 13:44:37,186 INFO [utils.py(__get_driver:35)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 13:44:37,369 INFO [utils.py(start_bluetooth_broadcast:142)] - 成功发起蓝牙广播
+2024-11-01 13:44:37,758 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 13:44:42,944 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 13:44:43,248 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:44:43,763 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 13:44:48,285 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 13:44:49,098 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 13:44:50,069 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 13:44:50,931 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 13:44:52,125 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 13:44:52,892 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 13:44:53,601 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 13:44:54,664 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 13:44:54,664 INFO [utils.py(start_bluetooth_broadcast:140)] - 开始发起蓝牙广播
+2024-11-01 13:45:00,396 INFO [utils.py(__get_driver:35)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 13:45:00,613 INFO [utils.py(start_bluetooth_broadcast:142)] - 成功发起蓝牙广播
+2024-11-01 13:45:00,878 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 13:45:05,405 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 13:45:05,685 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:45:06,170 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 13:47:59,894 INFO [server.py(start_by_port:25)] - 在端口 4723 启动 Appium 服务器
+2024-11-01 13:47:59,901 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-01 13:47:59,920 INFO [server.py(start_by_port:25)] - 在端口 4724 启动 Appium 服务器
+2024-11-01 13:47:59,931 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 13:47:59,940 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-01 13:47:59,945 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 13:48:04,924 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 13:48:05,731 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 13:48:06,668 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 13:48:07,528 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 13:48:08,691 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 13:48:09,470 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 13:48:10,139 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 13:48:11,202 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 13:48:11,202 INFO [utils.py(start_bluetooth_broadcast:140)] - 开始发起蓝牙广播
+2024-11-01 13:48:17,250 INFO [utils.py(__get_driver:35)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 13:48:17,416 INFO [utils.py(start_bluetooth_broadcast:142)] - 成功发起蓝牙广播
+2024-11-01 13:48:17,700 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 13:48:22,616 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 13:48:22,912 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:48:23,411 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 13:48:27,997 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 13:48:28,764 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 13:48:29,722 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 13:48:30,600 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 13:48:31,688 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 13:48:33,093 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 13:48:33,159 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 13:48:34,200 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 13:48:34,200 INFO [utils.py(start_bluetooth_broadcast:140)] - 开始发起蓝牙广播
+2024-11-01 13:48:40,098 INFO [utils.py(__get_driver:35)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 13:48:40,281 INFO [utils.py(start_bluetooth_broadcast:142)] - 成功发起蓝牙广播
+2024-11-01 13:48:40,551 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 13:49:11,589 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:49:12,104 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 13:49:41,125 INFO [server.py(start_by_port:25)] - 在端口 4723 启动 Appium 服务器
+2024-11-01 13:49:41,131 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-01 13:49:41,148 INFO [server.py(start_by_port:25)] - 在端口 4724 启动 Appium 服务器
+2024-11-01 13:49:41,152 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 13:49:41,159 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-01 13:49:41,162 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-01 13:49:46,040 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 13:49:46,771 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 13:49:47,744 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 13:49:48,621 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 13:49:49,803 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 13:49:50,671 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 13:49:51,399 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 13:49:52,445 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 13:49:52,445 INFO [utils.py(start_bluetooth_broadcast:140)] - 开始发起蓝牙广播
+2024-11-01 13:49:58,494 INFO [utils.py(__get_driver:35)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 13:49:58,722 INFO [utils.py(start_bluetooth_broadcast:142)] - 成功发起蓝牙广播
+2024-11-01 13:49:59,052 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 13:50:04,314 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 13:50:04,604 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:50:05,151 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 13:50:09,693 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 13:50:10,468 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 13:50:11,436 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 13:50:12,301 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 13:50:13,494 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 13:50:14,263 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 13:50:14,929 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 13:50:15,971 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 13:50:15,971 INFO [utils.py(start_bluetooth_broadcast:140)] - 开始发起蓝牙广播
+2024-11-01 13:50:21,812 INFO [utils.py(__get_driver:35)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 13:50:21,998 INFO [utils.py(start_bluetooth_broadcast:142)] - 成功发起蓝牙广播
+2024-11-01 13:50:22,284 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 13:50:26,903 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 13:50:27,203 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 13:50:27,683 INFO [utils.py(__quit_driver:45)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 14:20:40,763 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:21:35,302 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:26:56,199 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:27:24,654 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:27:53,670 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:34:49,924 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:36:25,924 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:36:58,134 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:37:55,599 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:46:11,288 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:47:01,834 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:48:03,687 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:51:47,968 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 14:52:13,032 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 15:26:21,837 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 15:37:09,169 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 15:38:02,532 INFO [utils.py(__get_driver:35)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:01:26,350 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:01:29,931 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，key_text: 已连接，超时
+2024-11-01 16:02:44,688 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:02:48,238 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，key_text: 已连接，超时
+2024-11-01 16:02:48,238 INFO [connect_wifi.py(get_current_wifi_status:57)] - 当前未连接wifi
+2024-11-01 16:03:45,679 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:03:49,343 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 16:03:49,343 INFO [connect_wifi.py(get_current_wifi_status:57)] - 当前未连接wifi
+2024-11-01 16:06:33,084 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:12:10,637 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:12:12,032 INFO [connect_wifi.py(connect_wifi:37)] - 开始连接wifi
+2024-11-01 16:12:22,491 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 16:12:22,491 INFO [connect_wifi.py(get_current_wifi_status:61)] - 当前未连接wifi
+2024-11-01 16:13:07,648 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:13:39,190 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:13:41,160 INFO [connect_wifi.py(connect_wifi:37)] - 开始连接wifi
+2024-11-01 16:14:36,955 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:18:18,038 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:18:19,210 INFO [connect_wifi.py(connect_wifi:32)] - 找不到：inmoglass-5G
+2024-11-01 16:22:35,094 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:22:35,709 INFO [connect_wifi.py(get_current_wifi_status:65)] - 当前连接的wifi是：<appium.webdriver.webelement.WebElement (session="4c771505-e199-4c9a-9d66-f62be51441ff", element="00000000-0000-1571-ffff-ffff00000240")>
+2024-11-01 16:22:35,710 INFO [connect_wifi.py(connect_wifi:36)] - 找不到：inmoglass
+2024-11-01 16:29:14,718 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:29:15,260 INFO [connect_wifi.py(get_current_wifi_status:79)] - 当前连接的wifi是：<appium.webdriver.webelement.WebElement (session="52eba297-777b-43cb-9def-a4dd68e15ca6", element="00000000-0000-1582-ffff-ffff00000240")>
+2024-11-01 16:29:17,859 INFO [connect_wifi.py(connect_wifi:56)] - 开始连接wifi
+2024-11-01 16:29:32,624 INFO [connect_wifi.py(get_current_wifi_status:79)] - 当前连接的wifi是：<appium.webdriver.webelement.WebElement (session="52eba297-777b-43cb-9def-a4dd68e15ca6", element="00000000-0000-1582-ffff-ffff00000240")>
+2024-11-01 16:31:18,404 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:31:19,068 INFO [connect_wifi.py(get_current_wifi_status:79)] - 当前连接的wifi是：inmoglass
+2024-11-01 16:32:16,239 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:32:16,878 INFO [connect_wifi.py(get_current_wifi_status:79)] - 当前连接的wifi是：inmoglass
+2024-11-01 16:33:51,105 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:33:51,729 INFO [connect_wifi.py(get_current_wifi_status:79)] - 当前连接的wifi是：inmoglass
+2024-11-01 16:33:51,743 INFO [connect_wifi.py(connect_wifi:38)] - 当前已连接wifi：inmoglass
+2024-11-01 16:34:51,453 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:34:52,093 INFO [connect_wifi.py(get_current_wifi_status:79)] - 当前连接的wifi是：inmoglass
+2024-11-01 16:34:54,123 INFO [connect_wifi.py(connect_wifi:56)] - 开始连接wifi
+2024-11-01 16:35:04,197 INFO [connect_wifi.py(get_current_wifi_status:79)] - 当前连接的wifi是：inmoglass-5G
+2024-11-01 16:36:27,589 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:36:28,203 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass-5G
+2024-11-01 16:36:28,224 INFO [connect_wifi.py(connect_wifi:38)] - 当前已连接wifi：inmoglass-5G
+2024-11-01 16:36:38,964 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:36:39,658 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass-5G
+2024-11-01 16:36:41,685 INFO [connect_wifi.py(connect_wifi:56)] - 开始连接wifi
+2024-11-01 16:36:54,936 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass
+2024-11-01 16:37:37,608 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:37:38,399 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass
+2024-11-01 16:37:38,416 INFO [connect_wifi.py(connect_wifi:38)] - 当前已连接wifi：inmoglass
+2024-11-01 16:37:54,177 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:37:54,783 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass
+2024-11-01 16:37:56,756 INFO [connect_wifi.py(connect_wifi:56)] - 开始连接wifi：inmoglass-5G
+2024-11-01 16:38:14,670 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass-5G
+2024-11-01 16:38:14,687 INFO [connect_wifi.py(connect_wifi:62)] - wifi已连接
+2024-11-01 16:38:51,284 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:38:51,847 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass-5G
+2024-11-01 16:38:51,863 INFO [connect_wifi.py(connect_wifi:38)] - 当前已连接wifi：inmoglass-5G
+2024-11-01 16:39:04,369 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:39:04,965 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass-5G
+2024-11-01 16:39:06,451 INFO [connect_wifi.py(connect_wifi:56)] - 开始连接wifi：inmoglass
+2024-11-01 16:39:19,708 INFO [connect_wifi.py(get_current_wifi_status:80)] - 当前连接的wifi是：inmoglass
+2024-11-01 16:39:19,722 INFO [connect_wifi.py(connect_wifi:62)] - wifi:inmoglass已连接
+2024-11-01 16:40:39,977 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:40:40,779 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 16:40:41,742 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 16:40:42,622 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 16:40:43,736 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 16:40:44,637 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 16:40:45,305 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 16:40:46,352 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 16:40:46,352 INFO [utils.py(start_bluetooth_broadcast:143)] - 开始发起蓝牙广播
+2024-11-01 16:40:53,654 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 16:40:53,888 INFO [utils.py(start_bluetooth_broadcast:145)] - 成功发起蓝牙广播
+2024-11-01 16:40:54,173 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 16:40:59,926 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 16:41:00,259 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 16:41:00,773 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 16:44:23,805 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:44:24,606 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 16:44:25,466 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 16:44:26,335 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 16:44:27,440 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 16:44:28,319 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 16:44:28,988 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 16:44:30,916 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 16:44:30,916 INFO [utils.py(start_bluetooth_broadcast:143)] - 开始发起蓝牙广播
+2024-11-01 16:44:36,729 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 16:44:36,978 INFO [utils.py(start_bluetooth_broadcast:145)] - 成功发起蓝牙广播
+2024-11-01 16:44:37,304 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 16:44:43,379 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 16:44:44,282 INFO [product.py(click_wifi:27)] - 点击了wifi
+2024-11-01 16:45:15,427 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 16:45:15,427 INFO [connect_wifi.py(get_current_wifi_status:82)] - 当前未连接wifi
+2024-11-01 16:45:15,855 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 16:45:16,445 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 16:45:41,288 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:45:42,070 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 16:45:43,033 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 16:45:43,932 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 16:45:45,135 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 16:45:45,998 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 16:45:46,698 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 16:45:47,712 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 16:45:47,712 INFO [utils.py(start_bluetooth_broadcast:143)] - 开始发起蓝牙广播
+2024-11-01 16:45:53,586 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 16:45:53,807 INFO [utils.py(start_bluetooth_broadcast:145)] - 成功发起蓝牙广播
+2024-11-01 16:45:54,723 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 16:45:59,505 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 16:45:59,818 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 16:46:00,327 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 16:46:11,722 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:46:12,537 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 16:46:13,384 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 16:46:14,244 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 16:46:15,423 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 16:46:16,289 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 16:46:17,250 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 16:46:18,258 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 16:46:18,258 INFO [utils.py(start_bluetooth_broadcast:143)] - 开始发起蓝牙广播
+2024-11-01 16:46:24,187 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 16:46:24,468 INFO [utils.py(start_bluetooth_broadcast:145)] - 成功发起蓝牙广播
+2024-11-01 16:46:24,754 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 16:46:31,067 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 16:46:31,175 INFO [product.py(click_wifi:27)] - 点击了wifi
+2024-11-01 16:47:02,529 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 16:47:02,529 INFO [connect_wifi.py(get_current_wifi_status:82)] - 当前未连接wifi
+2024-11-01 16:47:02,911 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 16:47:03,441 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 16:48:17,265 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:48:18,068 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 16:48:18,899 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 16:48:19,832 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 16:48:20,941 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 16:48:21,861 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 16:48:22,525 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 16:48:23,542 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 16:48:23,542 INFO [utils.py(start_bluetooth_broadcast:143)] - 开始发起蓝牙广播
+2024-11-01 16:48:29,387 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 16:48:29,624 INFO [utils.py(start_bluetooth_broadcast:145)] - 成功发起蓝牙广播
+2024-11-01 16:48:30,612 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 16:48:38,634 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 16:48:38,758 INFO [product.py(click_wifi:27)] - 点击了wifi
+2024-11-01 16:49:10,431 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 16:49:10,431 INFO [connect_wifi.py(get_current_wifi_status:82)] - 当前未连接wifi
+2024-11-01 16:49:10,817 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 16:49:11,418 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 16:50:09,104 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:50:09,901 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 16:50:10,897 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 16:50:11,772 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 16:50:12,899 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 16:50:13,693 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 16:50:14,836 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 16:50:44,692 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:50:45,501 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 16:50:46,506 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 16:50:47,366 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 16:50:48,586 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 16:50:49,440 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 16:50:50,144 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 16:50:51,148 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 16:50:51,148 INFO [utils.py(start_bluetooth_broadcast:143)] - 开始发起蓝牙广播
+2024-11-01 16:50:57,026 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 16:50:57,275 INFO [utils.py(start_bluetooth_broadcast:145)] - 成功发起蓝牙广播
+2024-11-01 16:50:58,181 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 16:51:03,080 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 16:51:03,216 INFO [product.py(click_wifi:27)] - 点击了wifi
+2024-11-01 16:51:35,044 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 16:51:35,044 INFO [connect_wifi.py(get_current_wifi_status:82)] - 当前未连接wifi
+2024-11-01 16:51:35,429 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 16:51:36,024 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 16:52:24,731 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:52:25,513 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 16:52:26,438 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 16:52:27,313 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 16:52:28,499 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 16:52:29,366 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 16:52:30,084 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 16:52:31,087 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 16:52:31,088 INFO [utils.py(start_bluetooth_broadcast:143)] - 开始发起蓝牙广播
+2024-11-01 16:52:36,928 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 16:52:37,131 INFO [utils.py(start_bluetooth_broadcast:145)] - 成功发起蓝牙广播
+2024-11-01 16:52:38,004 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 16:52:42,518 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 16:52:42,654 INFO [product.py(click_wifi:27)] - 点击了wifi
+2024-11-01 16:53:14,434 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 16:53:14,434 INFO [connect_wifi.py(get_current_wifi_status:82)] - 当前未连接wifi
+2024-11-01 16:53:14,805 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 16:53:15,398 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-11-01 16:53:47,532 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:55:19,687 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:55:38,435 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:56:12,435 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:56:42,692 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 16:56:42,692 INFO [connect_wifi.py(get_current_wifi_status:82)] - 当前未连接wifi
+2024-11-01 16:58:14,443 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:58:31,464 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 16:58:54,335 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 17:01:08,262 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 17:01:38,634 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 17:01:38,634 INFO [connect_wifi.py(get_current_wifi_status:82)] - 当前未连接wifi
+2024-11-01 17:04:04,906 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 17:04:35,267 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 17:04:35,267 INFO [connect_wifi.py(get_current_wifi_status:69)] - 当前未连接wifi
+2024-11-01 17:05:25,044 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 17:05:55,599 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 17:05:55,599 INFO [connect_wifi.py(get_current_wifi_status:69)] - 当前未连接wifi
+2024-11-01 17:06:50,124 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 17:06:52,433 INFO [connect_wifi.py(connect_wifi:40)] - 开始连接wifi:inmoglass
+2024-11-01 17:07:22,584 ERROR [utils.py(is_el_exist_by_text:222)] - 元素未找到，[key_text: 已连接]，超时
+2024-11-01 17:07:22,584 INFO [connect_wifi.py(get_current_wifi_status:64)] - 当前未连接wifi
+2024-11-01 17:07:39,492 ERROR [utils.py(is_el_exist_by_text:225)] - 获取文本元素失败, [key_text: 已连接], 异常信息: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\jsonwp-proxy\proxy.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.doFindElementOrEls (C:\Users\19815\.appium\node_modules\appium-uiautomator2-driver\lib\commands\find.js:40:5)
+    at doFind (C:\Users\19815\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:47:17)
+    at wrappedCondFn (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\timeout.ts:137:14)
+    at spin (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:219:20)
+    at waitForCondition (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:236:10)
+    at AndroidUiautomator2Driver.implicitWaitForCondition (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\timeout.ts:139:12)
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\19815\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:70:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+2024-11-01 17:07:39,492 INFO [connect_wifi.py(get_current_wifi_status:64)] - 当前未连接wifi
+2024-11-01 17:07:43,044 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 17:07:45,374 INFO [connect_wifi.py(connect_wifi:41)] - 开始连接wifi:inmoglass
+2024-11-01 17:07:53,711 INFO [connect_wifi.py(get_current_wifi_status:62)] - 当前连接的wifi是：inmoglass
+2024-11-01 17:07:53,920 INFO [connect_wifi.py(get_current_wifi_status:62)] - 当前连接的wifi是：inmoglass
+2024-11-01 17:08:04,711 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 17:08:22,388 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 17:08:56,469 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-01 17:08:57,255 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-01 17:08:58,330 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-01 17:08:59,410 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-01 17:09:00,588 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-01 17:09:01,454 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-01 17:09:02,136 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-01 17:09:03,202 INFO [product.py(click_bt:23)] - 点击了蓝牙
+2024-11-01 17:09:03,202 INFO [utils.py(start_bluetooth_broadcast:143)] - 开始发起蓝牙广播
+2024-11-01 17:09:09,370 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-11-01 17:09:09,586 INFO [utils.py(start_bluetooth_broadcast:145)] - 成功发起蓝牙广播
+2024-11-01 17:09:09,805 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-01 17:09:14,707 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-01 17:09:14,850 INFO [product.py(click_wifi:27)] - 点击了wifi
+2024-11-01 17:09:18,446 INFO [connect_wifi.py(connect_wifi:41)] - 开始连接wifi:inmoglass-5G
+2024-11-01 17:09:35,821 INFO [connect_wifi.py(get_current_wifi_status:62)] - 当前连接的wifi是：inmoglass-5G
+2024-11-01 17:09:36,185 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-01 17:09:36,731 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功

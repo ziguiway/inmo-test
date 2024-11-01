@@ -9,7 +9,6 @@ import requests
 from common.utils import FileUtils
 from config import BASE_PATH
 
-
 class AppiumServer:
     def get_appium_server_ports(self):
         # 读取配置文件获取所有 Appium 服务器的端口
@@ -24,34 +23,23 @@ class AppiumServer:
         command = f'start cmd /K "appium --allow-insecure=adb_shell -p {port}"'
         os.system(command)
         logging.info("在端口 %d 启动 Appium 服务器", port)
+        # 启动后等待并检查状态
+        if not self.is_running(port):
+            logging.error("在端口 %d 启动的 Appium 服务器未能成功启动.", port)
 
     def start_all(self, port_list=None):
         if port_list is None:
             port_list = self.get_appium_server_ports()
-
-        # 检查所有 Appium 服务器是否已经运行
-        if self.are_all_running():
-            logging.info("所有 Appium 服务器已经在运行，无需重新启动.")
-            return
-
-        failed_ports = []  # 用于记录启动失败的端口
-
         for port in port_list:
             self.start_by_port(port)
-            # 启动后检查服务器状态
-            if not self.is_running(port):
-                failed_ports.append(port)
+        if not self.are_all_running():
+            logging.error("并非所有 Appium 服务器都已成功启动.")
 
-        if failed_ports:
-            logging.error("以下端口的 Appium 服务器未能成功启动: %s", ', '.join(map(str, failed_ports)))
-        else:
-            logging.info("所有 Appium 服务器已成功启动.")
-
-    def is_running(self, port, check_interval=1, timeout=30):
+    def is_running(self, port, check_interval=1, timeout=60):
         # 动态等待单个 Appium 服务启动
         return self.check_appium_status(port, timeout, check_interval)
 
-    def are_all_running(self, check_interval=1, timeout=30):
+    def are_all_running(self, check_interval=1, timeout=60):
         # 检查所有 Appium 服务器是否已启动
         port_list = self.get_appium_server_ports()
         all_running = True
@@ -86,8 +74,7 @@ class AppiumServer:
                 proc.terminate()  # 终止进程
                 logging.info("停止了 PID 为 %d 的 Appium 服务器", proc.info['pid'])
 
-
-# 使用示例
 if __name__ == "__main__":
     appium_server = AppiumServer()
-    appium_server.start_all()
+    ports = appium_server.get_appium_server_ports()
+    print(ports)

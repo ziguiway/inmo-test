@@ -26,9 +26,9 @@ class ProductPage(BasePageAndroid):
         self.base_click(self.__loc_wifi)
         logging.info("点击了wifi")
 
-    def adjust_brightness(self):
-        self.base_move_seekbar(self.__loc_brightness,99)
-
+    def adjust_brightness(self,percent):
+        self.base_move_seekbar(self.__loc_brightness,percent)
+        logging.info(f"调节亮度到:{percent}%")
 
     def bt_status(self):
         text = self.base_get_text(self.__loc_bt)

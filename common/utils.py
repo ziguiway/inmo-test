@@ -9,6 +9,10 @@ import yaml
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from colorama import init, Fore, Style
+from selenium.common import TimeoutException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 
 from common.type import DriverType
 from config import BASE_PATH
@@ -30,7 +34,7 @@ class DriverUtils:
                 appium_server_url = config.get('serverUrl')
                 options = UiAutomator2Options().load_capabilities(config)
                 cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                cls.__drivers[driver_type].implicitly_wait(30)
+                # cls.__drivers[driver_type].implicitly_wait(30)
                 logging.info(f"获取 {driver_type} Driver 成功")
             except Exception as e:
                 cls.__handle_exception(e, f"初始化 {driver_type} 驱动程序")
@@ -77,33 +81,6 @@ class TimeUtils:
     @staticmethod
     def format_timestamp(timestamp, format_str="%Y-%m-%d %H:%M:%S"):
         return datetime.fromtimestamp(timestamp).strftime(format_str)
-
-
-class TimeUtils:
-    @staticmethod
-    def get_current_timestamp():
-        """获取当前时间的时间戳（浮点数）"""
-        return time.time()
-
-    @staticmethod
-    def get_current_timestamp_int():
-        """获取当前时间的时间戳（整数）"""
-        return int(time.time())
-
-    @staticmethod
-    def format_timestamp(timestamp, format_str="%Y-%m-%d %H:%M:%S"):
-        """将时间戳格式化为指定格式的时间字符串"""
-        return datetime.fromtimestamp(timestamp).strftime(format_str)
-
-    @staticmethod
-    def parse_time_string(time_str, format_str="%Y-%m-%d %H:%M:%S"):
-        """将时间字符串解析为时间对象"""
-        return datetime.strptime(time_str, format_str)
-
-    @staticmethod
-    def get_time_difference(start_time, end_time):
-        """计算两个时间之间的差值（秒）"""
-        return (end_time - start_time).total_seconds()
 
 
 class FileUtils:
@@ -230,3 +207,20 @@ class LoggerUtils:
         return self.logger
 
 
+class ElementUtils:
+
+    @classmethod
+    def is_el_exist_by_text(cls,driver_type, key_text, timeout=3, poll_frequency=0.5):
+        try:
+            xpath_str = f"//*[@text='{key_text}']"
+            driver = DriverUtils.get_driver(driver_type)
+            WebDriverWait(driver, timeout=timeout, poll_frequency=poll_frequency).until(
+                EC.presence_of_element_located((By.XPATH, xpath_str))
+            )
+            return True  # 找到元素，返回 True
+        except TimeoutException:
+            logging.error(f"元素未找到，[key_text: {key_text}]，超时")
+            return False  # 未找到元素，返回 False
+        except Exception as e:
+            logging.error(f"获取文本元素失败, [key_text: {key_text}], 异常信息: {e}")
+            return False  # 其他异常情况也返回 False

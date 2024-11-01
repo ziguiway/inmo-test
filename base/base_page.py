@@ -2,26 +2,23 @@ import logging
 
 from selenium.webdriver.support.ui import WebDriverWait
 
-from common.type import DriverType
-from common.utils import DriverUtils
-
 
 class BasePage:
     def __init__(self, driver):
         self.driver = driver
 
-    def __base_find(self, loc, multiple=False):
+    def __base_find(self, loc, timeout, poll_frequency, multiple):
         logging.debug(f"正在查找元素: {loc}")
-        wait = WebDriverWait(self.driver, 10, 0.5)
+        wait = WebDriverWait(self.driver, timeout, poll_frequency)
         if multiple:
             return wait.until(lambda x: x.find_elements(*loc))
         return wait.until(lambda x: x.find_element(*loc))
 
-    def base_find_element(self, loc):
-        return self.__base_find(loc, multiple=False)
+    def base_find_element(self, loc, timeout=10, poll_frequency=0.5):
+        return self.__base_find(loc, timeout, poll_frequency, multiple=False)
 
-    def base_find_elements(self, loc):
-        return self.__base_find(loc, multiple=True)
+    def base_find_elements(self, loc, timeout=10, poll_frequency=0.5):
+        return self.__base_find(loc, timeout, poll_frequency, multiple=True)
 
     def base_click(self, loc):
         logging.debug(f"正在点击元素:{loc}")

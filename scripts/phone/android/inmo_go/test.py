@@ -4,6 +4,7 @@ from page.phone.android.inmo_go.connect_glasses import ConnectGlassesPage
 from page.phone.android.inmo_go.product import ProductPage
 from page.phone.android.inmo_go.tutorial_list import TutorialListPage
 from page.phone.android.inmo_go.user_agreement import UserAgreementPage
+from page.phone.android.inmo_go.connect_wifi import ConnectWifiPage
 
 
 class Test:
@@ -13,6 +14,7 @@ class Test:
         self.tutorial_list_page = TutorialListPage(driver)
         self.product_page = ProductPage(driver)
         self.connect_glasses = ConnectGlassesPage(driver)
+        self.connect_wifi_page = ConnectWifiPage(driver)
 
     def teardown_method(self):
         DriverUtils.quit_driver(DriverType.ANDROID)
@@ -31,9 +33,17 @@ class Test:
         bt_status = self.product_page.bt_status()
         assert bt_status in "眼镜已连接APP"
 
+    def test_connect_wifi(self):
+        self.test_connect_glasses()
+        self.product_page.click_wifi()
+        self.connect_wifi_page.connect_wifi("inmoglass-5G","20210108")
+
+
+
 
     def test_enter_translation(self):
-        pass
+        self.test_connect_glasses()
+
 
     # def test_disagree(self):
     #     self.user_agreement_page.disagree()
