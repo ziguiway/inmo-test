@@ -19,14 +19,14 @@ appium:
       automationName: uiautomator2
       serverUrl: "http://127.0.0.1:4724"
     #模拟器
-    - deviceName: simulator
-      platformName: Android
-      udid: emulator-5554
-      appPackage: com.inmo.inmoglasses
-      appActivity: com.inmo.inmolens.SplashActivity
-      #noReset: true
-      automationName: uiautomator2
-      serverUrl: "http://127.0.0.1:4725"
+#    - deviceName: simulator
+#      platformName: Android
+#      udid: emulator-5554
+#      appPackage: com.inmo.inmoglasses
+#      appActivity: com.inmo.inmolens.SplashActivity
+#      #noReset: true
+#      automationName: uiautomator2
+#      serverUrl: "http://127.0.0.1:4725"
 
 
 
