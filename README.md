@@ -212,7 +212,7 @@ appium --allow-insecure=adb_shell -p {port}
 
 > [!tip]
 >
-> 把{port}改成，你要启动的端口，要与config.yaml文件一致
+> 把 {port} 改成你要启动的端口，要与config.yaml文件一致
 
 2.在项目的根路径下,输入`pytest`，回车
 
