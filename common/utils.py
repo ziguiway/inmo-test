@@ -146,7 +146,17 @@ class GlassesUtils:
             driver.unlock()
         logging.info("成功发起蓝牙广播")
 
-
+    @classmethod
+    def get_battery_info(cls):
+        """
+        获取眼镜电池信息
+        :return:
+        """
+        logging.info("开始获取眼镜电池信息")
+        driver = DriverUtils.get_driver(DriverType.GLASS)
+        battery_info = driver.execute_script('mobile: batteryInfo')
+        logging.info("获取眼镜电池信息成功")
+        return battery_info
 class LoggerUtils:
     _instance = None
 
@@ -226,3 +236,9 @@ class ElementUtils:
         except Exception as e:
             logging.error(f"获取文本元素失败, [key_text: {key_text}], 异常信息: {e}")
             return False  # 其他异常情况也返回 False
+
+
+
+if __name__ == '__main__':
+    info = GlassesUtils.get_battery_info()
+    print(info)
