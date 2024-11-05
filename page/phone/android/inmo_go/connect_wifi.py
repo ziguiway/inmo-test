@@ -64,15 +64,3 @@ class ConnectWifiPage(BasePageAndroid):
         else:
             logging.info("当前未连接wifi")
             return WifiStatusType.UNCONNECTED
-
-
-# driver = DriverUtils.get_driver(DriverType.ANDROID, False)
-# ConnectWifiPage(driver).connect_wifi("inmoglass", "20210108")
-# ConnectWifiPage(driver).get_current_wifi_status()
-# ConnectWifiPage(driver).custom_net_config("inmoglass-5G","20210108")
-# //android.widget.TextView[@resource-id="com.inmo.inmoglasses:id/tv_wifi_name"]
-# //android.widget.TextView[@resource-id="com.inmo.inmoglasses:id/tv_wifi_name" and @text="inmoglass"]
-
-
-# wifi_list = ConnectWifiPage(driver).get_wifi_list()
-# print([element.text for element in wifi_list])
