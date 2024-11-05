@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ### 2.修改udid
 
-> [提示]
+> [!TIP]
 >
 > 使用`adb devices`查看udid
 
