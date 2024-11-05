@@ -267,3 +267,96 @@ UnknownError: An unknown server-side error occurred while processing the command
 2024-11-05 09:58:51,485 INFO [product.py(bt_status:35)] - 获取了蓝牙连接状态:眼镜已连接APP
 2024-11-05 09:58:51,754 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
 2024-11-05 09:58:52,212 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-11-05 16:21:08,993 INFO [server.py(start_by_port:25)] - 在端口 4723 启动 Appium 服务器
+2024-11-05 16:21:11,046 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:14,076 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:17,110 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:20,145 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:23,174 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:26,209 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:29,243 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:32,272 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:35,309 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:38,342 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:41,372 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:44,407 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:47,441 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:50,476 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:53,511 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:56,547 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:21:59,593 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:22:02,624 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:22:05,658 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:22:08,697 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:22:10,252 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-05 16:22:10,271 INFO [server.py(start_by_port:25)] - 在端口 4724 启动 Appium 服务器
+2024-11-05 16:22:12,306 WARNING [server.py(check_appium_status:63)] - 连接失败，正在重试...
+2024-11-05 16:22:13,833 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-05 16:22:13,837 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-05 16:22:13,840 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-05 16:22:15,793 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-05 16:22:15,979 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-05 16:22:16,031 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device FMR0223B23029252 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-05 18:28:00,205 INFO [server.py(start_by_port:25)] - 在端口 4723 启动 Appium 服务器
+2024-11-05 18:28:02,300 WARNING [server.py(check_appium_status:63)] - appium服务正在启动，连接失败，正在重试...
+2024-11-05 18:28:05,346 WARNING [server.py(check_appium_status:63)] - appium服务正在启动，连接失败，正在重试...

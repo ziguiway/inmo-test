@@ -20,7 +20,7 @@ class AppiumServer:
         return port_list
 
     def start_by_port(self, port=4723):
-        command = f'start cmd /K "appium --allow-insecure=adb_shell -p {port}"'
+        command = f'start cmd /C "appium --allow-insecure=adb_shell -p {port}"'
         os.system(command)
         logging.info("在端口 %d 启动 Appium 服务器", port)
         # 启动后等待并检查状态
@@ -60,7 +60,7 @@ class AppiumServer:
                     logging.info("Appium 服务器在端口 %d 已启动并运行.", port)
                     return True
             except requests.ConnectionError:
-                logging.warning("连接失败，正在重试...")
+                logging.warning("appium服务正在启动，连接失败，正在重试...")
 
             if time.time() - start_time > timeout:
                 logging.error("等待 Appium 服务器在端口 %d 超时.", port)
