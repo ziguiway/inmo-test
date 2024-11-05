@@ -20,7 +20,7 @@
 
 ### 2.安装appium
 
-使用 `npm` 在全局范围内安装 Appium,在命令行输入` npm i -g appium@2.6`，耗时可能比较久，请耐心等待安装完成
+使用 `npm` 在全局范围内安装 Appium,在命令行输入`npm i -g appium@2.6`，耗时可能比较久，请耐心等待安装完成
 
 ```shell
 npm i -g appium@2.6
