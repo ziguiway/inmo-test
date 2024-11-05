@@ -26,7 +26,6 @@
 npm i -g appium@2.6
 ```
 
-![image-20241105102357962](https://pic.imgdb.cn/item/6729a407d29ded1a8c74ec91.png)
 
 ### 4.安装Android SDK
 
@@ -48,7 +47,6 @@ npm i -g appium@2.6
 appium driver install uiautomator2@2.0
 ``````
 
-![image-20241105111909842](https://pic.imgdb.cn/item/6729a537d29ded1a8c75bf11.png)
 
 ### 7.安装python
 
