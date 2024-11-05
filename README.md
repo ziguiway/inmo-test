@@ -30,15 +30,11 @@ npm i -g appium@2.6
 
 ### 4.安装Android SDK
 
-请参考 *
-*[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050)
-**
+请参考 **[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050)**
 
 ### 5.安装Java JDK
 
-请参考 *
-*[超详细JDK下载与安装步骤（保姆级，含安装包）_jdk下载与安装教程-CSDN博客](https://blog.csdn.net/VA_AV/article/details/138508891)
-**
+请参考 **[超详细JDK下载与安装步骤（保姆级，含安装包）_jdk下载与安装教程-CSDN博客](https://blog.csdn.net/VA_AV/article/details/138508891)**
 
 ### 6.安装UiAutomator2 驱动
 
@@ -60,8 +56,7 @@ appium driver install uiautomator2@2.0
 
 ### 8.安装git
 
-请参考 **[windows安装git（全网最详细，保姆教程）-CSDN博客](https://blog.csdn.net/weixin_42242910/article/details/136297201)
-**
+请参考 **[windows安装git（全网最详细，保姆教程）-CSDN博客](https://blog.csdn.net/weixin_42242910/article/details/136297201)**
 
 ## 二、快速开始
 
@@ -215,7 +210,7 @@ python main.py
 appium --allow-insecure=adb_shell -p {port}
 ```
 
-> [!important]
+> [!tip]
 >
 > 把{port}改成，你要启动的端口，要与config.yaml文件一致
 
