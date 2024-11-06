@@ -45,6 +45,3 @@ class Test:
         self.test_connect_glasses()
 
 
-    # def test_disagree(self):
-    #     self.user_agreement_page.disagree()
-    #     sleep(2)
