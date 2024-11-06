@@ -24,7 +24,7 @@
 
 ### 1.安装[nvm](https://github.com/coreybutler/nvm-windows/releases)和nodejs
 
- **请参考[nvm安装和使用保姆级教程（详细）-CSDN博客](https://blog.csdn.net/weixin_38383877/article/details/143077797)**
+ 请参考[nvm安装和使用保姆级教程（详细）-CSDN博客](https://blog.csdn.net/weixin_38383877/article/details/143077797)
 
 ### 2.安装appium
 
