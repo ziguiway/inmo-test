@@ -3,7 +3,7 @@ appium:
     #华为mate60pro
     - deviceName: huawei mate60pro
       platformName: Android
-      udid: "FMR0223B23029252" #通过adb devices获取
+      udid: "SXQ0223511006353" #通过adb devices获取
       appPackage: com.inmo.inmoglasses
       appActivity: com.inmo.inmolens.SplashActivity
       #noReset: true
