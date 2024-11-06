@@ -17,6 +17,8 @@ class ProductPage(BasePageAndroid):
         self.__loc_voice = (By.ID, "com.inmo.inmoglasses:id/seekbar_volume")
         self.__loc_ring = (By.ID, "com.inmo.inmoglasses:id/ll_ring_info")
         self.__loc_speaker_box = (By.ID, "com.inmo.inmoglasses:id/ll_speaker_info")
+        self.__loc_bottom_product_btn = (By.ID, "com.inmo.inmoglasses:id/iv_product")
+        self.__loc_bottom_translate_btn = (By.ID, "com.inmo.inmoglasses:id/iv_translate")
 
     def click_bt(self):
         self.base_click(self.__loc_bt)
@@ -40,4 +42,5 @@ class ProductPage(BasePageAndroid):
         logging.info(f"获取了wifi连接状态:{text}")
         return text
 
-
+    def to_translate_page(self):
+        self.base_click(self.__loc_bottom_translate_btn)
