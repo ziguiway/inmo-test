@@ -6,13 +6,19 @@
 >
 > 以下环境安装，如果已经安装过，可以自行跳过
 >
-> - [x] nvm : 1.1.12
-> - [x] nodejs : 20.18.0
-> - [x] appium : 2.6
-> - [x] Android SDK : 24.4.1
-> - [x] Java JDK : 17
-> - [x] Python：3.12
-> - [x] git
+> ✅ nvm : 1.1.12
+>
+> ✅ nodejs : 20.18.0
+>
+> ✅ appium : 2.6
+>
+> ✅ Android SDK : 24.4.1
+>
+> ✅ Java JDK : 17
+>
+> ✅ Python：3.12
+> 
+> ✅ git
 
 ### 1.安装[nvm](https://github.com/coreybutler/nvm-windows/releases)和nodejs
 
