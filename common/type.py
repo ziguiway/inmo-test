@@ -3,7 +3,7 @@ from enum import Enum
 
 class DriverType(Enum):
     IOS = ""
-    ANDROID = "FMR0223B23029252"
+    ANDROID = "SXQ0223511006353"
     GLASS = "28918606999183"
 
 
