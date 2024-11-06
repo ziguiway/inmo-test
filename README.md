@@ -24,24 +24,24 @@
 
 ### 1.安装[nvm](https://github.com/coreybutler/nvm-windows/releases)和nodejs
 
-请参考 **[nvm安装和使用保姆级教程（详细）-CSDN博客](https://blog.csdn.net/weixin_38383877/article/details/143077797)**
+ **请参考[nvm安装和使用保姆级教程（详细）-CSDN博客](https://blog.csdn.net/weixin_38383877/article/details/143077797)**
 
 ### 2.安装appium
 
-使用 `npm` 在全局范围内安装 Appium,在命令行输入`npm i -g appium@2.6`，耗时可能比较久，请耐心等待安装完成
+使用 `npm` 在全局范围内安装 Appium,在命令行输入`npm i -g appium@2.12.1`，耗时可能比较久，请耐心等待安装完成
 
 ```shell
-npm i -g appium@2.6
+npm i -g appium@2.12.1
 ```
 
 
 ### 4.安装Android SDK
 
-请参考 **[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050)**
+ **请参考[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050)**
 
 ### 5.安装Java JDK
 
-请参考 **[超详细JDK下载与安装步骤（保姆级，含安装包）_jdk下载与安装教程-CSDN博客](https://blog.csdn.net/VA_AV/article/details/138508891)**
+ **请参考[超详细JDK下载与安装步骤（保姆级，含安装包）_jdk下载与安装教程-CSDN博客](https://blog.csdn.net/VA_AV/article/details/138508891)**
 
 ### 6.安装UiAutomator2 驱动
 
@@ -58,11 +58,11 @@ appium driver install uiautomator2@2.45.1
 
 ### 7.安装python
 
-请参考 **[Python安装教程，超详细！！！-CSDN博客](https://blog.csdn.net/maiya_yayaya/article/details/131450517)**
+ **请参考[Python安装教程，超详细！！！-CSDN博客](https://blog.csdn.net/maiya_yayaya/article/details/131450517)**
 
 ### 8.安装git
 
-请参考 **[windows安装git（全网最详细，保姆教程）-CSDN博客](https://blog.csdn.net/weixin_42242910/article/details/136297201)**
+ **请参考[windows安装git（全网最详细，保姆教程）-CSDN博客](https://blog.csdn.net/weixin_42242910/article/details/136297201)**
 
 ## 二、快速开始
 
