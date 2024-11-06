@@ -10,10 +10,12 @@
 >
 > ✅ nodejs : 20.18.0
 >
-> ✅ appium : 2.6
+> ✅ appium : 2.12.1
 >
 > ✅ Android SDK : 24.4.1
 >
+> ✅ uiautomator2 : 2.45.1
+> 
 > ✅ Java JDK : 17
 >
 > ✅ Python：3.12
@@ -50,7 +52,7 @@ npm i -g appium@2.6
 命令行输入`appium driver install uiautomator2@2.0`，回车，等待安装完成。
 
 ``````shell
-appium driver install uiautomator2@2.0
+appium driver install uiautomator2@2.45.1
 ``````
 
 
