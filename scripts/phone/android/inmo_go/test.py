@@ -38,9 +38,6 @@ class Test:
         self.product_page.click_wifi()
         self.connect_wifi_page.connect_wifi("inmoglass-5G","20210108")
 
-
-
-
     def test_enter_translation(self):
         self.test_connect_glasses()
 

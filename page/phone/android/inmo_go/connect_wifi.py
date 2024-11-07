@@ -4,7 +4,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 
 from base.base_page import BasePageAndroid
 from common.type import DriverType, WifiStatusType
-from common.utils import DriverUtils, ElementUtils
+from common.utils import ElementUtils, DriverUtils
 
 
 class ConnectWifiPage(BasePageAndroid):
@@ -28,7 +28,10 @@ class ConnectWifiPage(BasePageAndroid):
 
     def connect_wifi(self, wifi_name, wifi_password):
         wifi_list = self.get_wifi_list()
-
+        status, current_wifi_name = self.get_current_wifi_status()
+        if status == WifiStatusType.CONNECTED and current_wifi_name == wifi_name:
+            logging.info(f"当前已连接wifi：{wifi_name}")
+            return
         if wifi_name not in [element.text for element in wifi_list]:
             logging.info(f"找不到：{wifi_name}")
             return
@@ -56,11 +59,17 @@ class ConnectWifiPage(BasePageAndroid):
         self.base_click(self.loc_refresh_btn)
 
     def get_current_wifi_status(self):
-        is_connected = ElementUtils.is_el_exist_by_text(DriverType.ANDROID, WifiStatusType.CONNECTED.value, timeout=30)
+        is_connected = ElementUtils.is_el_exist_by_text(DriverType.ANDROID, WifiStatusType.CONNECTED.value, timeout=5)
         if is_connected:
             current_wifi = self.get_wifi_list()[0]
             logging.info(f"当前连接的wifi是：{current_wifi.text}")
             return WifiStatusType.CONNECTED, current_wifi.text
         else:
             logging.info("当前未连接wifi")
-            return WifiStatusType.UNCONNECTED
+            return WifiStatusType.UNCONNECTED, None
+
+
+if __name__ == '__main__':
+    driver = DriverUtils.get_driver(DriverType.ANDROID, False)
+    connect_wifi_page = ConnectWifiPage(driver)
+    connect_wifi_page.connect_wifi("inmoglass", "20210108")

@@ -8,4 +8,4 @@ if __name__ == '__main__':
     appium_server = AppiumServer()
     appium_server.start_all()
     pytest.main()
-    appium_server.stop_all()
+    # appium_server.stop_all()

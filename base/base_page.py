@@ -1,5 +1,9 @@
 import logging
 
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.actions import interaction
+from selenium.webdriver.common.actions.action_builder import ActionBuilder
+from selenium.webdriver.common.actions.pointer_input import PointerInput
 from selenium.webdriver.support.ui import WebDriverWait
 
 
@@ -23,6 +27,23 @@ class BasePage:
     def base_click(self, loc):
         logging.debug(f"正在点击元素:{loc}")
         self.base_find_element(loc).click()
+
+    def base_click_by_coordinates(self, x, y, pause=0):
+        """
+        在指定坐标位置点击。
+        :param pause:
+        :param x: X坐标
+        :param y: Y坐标
+        """
+        driver = self.driver
+        actions = ActionChains(driver)
+        pointer = PointerInput(interaction.POINTER_TOUCH, "touch")
+        actions.w3c_actions = ActionBuilder(driver, mouse=pointer)
+        actions.w3c_actions.pointer_action.move_to_location(x, y)
+        actions.w3c_actions.pointer_action.pointer_down()
+        actions.w3c_actions.pointer_action.pause(pause)
+        actions.w3c_actions.pointer_action.pointer_up()
+        actions.perform()
 
     def base_input(self, loc, value):
         logging.debug(f"正在输入元素:{loc}, value:{value}")

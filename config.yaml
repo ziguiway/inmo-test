@@ -1,25 +1,22 @@
 appium:
   devices:
-    #华为mate60pro
-    - deviceName: huawei mate60pro
+    #华为mate50
+    - deviceName: huawei mate50
       platformName: Android
       udid: "SXQ0223511006353" #通过adb devices获取
       appPackage: com.inmo.inmoglasses
       appActivity: com.inmo.inmolens.SplashActivity
-      #noReset: true
       automationName: uiautomator2
       serverUrl: "http://127.0.0.1:4723"
+
     #inmo go2
     - deviceName: inmo go2
       platformName: Android
       udid: "28918606999183"
       appPackage: com.arglasses.launcher
       appActivity: com.go2glasses.launcher.ui.launcher.LauncherActivity
-      #noReset: true
       automationName: uiautomator2
       serverUrl: "http://127.0.0.1:4724"
-      settingsWait: 10000
-      newCommandTimeout: 10000
     #模拟器
 #    - deviceName: simulator
 #      platformName: Android

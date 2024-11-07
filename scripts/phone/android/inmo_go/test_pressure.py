@@ -1,31 +1,28 @@
+import logging
+
 from common.type import DriverType
-from common.utils import DriverUtils, GlassesUtils
-from page.phone.android.inmo_go.connect_glasses import ConnectGlassesPage
-from page.phone.android.inmo_go.connect_wifi import ConnectWifiPage
+from common.utils import DriverUtils
 from page.phone.android.inmo_go.custom_vocabulary import CustomVocabularyPage
-from page.phone.android.inmo_go.product import ProductPage
-from page.phone.android.inmo_go.tutorial_list import TutorialListPage
-from page.phone.android.inmo_go.user_agreement import UserAgreementPage
+from page.phone.android.inmo_go.edit_inscription import EditInscriptionPage
 
 
 class TestPressure:
-    def setup_class(self):
-        driver = DriverUtils.get_driver(DriverType.ANDROID)
-        self.custom_vocabulary_page = CustomVocabularyPage(driver)
-        self.user_agreement_page = UserAgreementPage(driver)
-        self.tutorial_list_page = TutorialListPage(driver)
-        self.product_page = ProductPage(driver)
-        self.connect_glasses = ConnectGlassesPage(driver)
-        self.connect_wifi_page = ConnectWifiPage(driver)
+    def setup_method(self):
+        self.driver = DriverUtils.get_driver(DriverType.ANDROID, False)
+        self.custom_vocabulary_page = CustomVocabularyPage(driver=self.driver)
+        self.edit_inscription_page = EditInscriptionPage(driver=self.driver)
+
+    def teardown_method(self):
+        DriverUtils.quit_driver(DriverType.ANDROID)
 
     def test_custom_vocabulary_add(self):
-        self.user_agreement_page.allow_info()
-        self.user_agreement_page.agree()
-        self.tutorial_list_page.go2()
-        self.tutorial_list_page.allow_location()
-        self.tutorial_list_page.allow_find_device()
-        self.tutorial_list_page.allow_read_app()
-        self.product_page.click_bt()
-        GlassesUtils.start_bluetooth_broadcast()
-        self.connect_glasses.connect_glasses()
+        for i in range(100000):
+            self.custom_vocabulary_page.click_add_button()
+            logging.info(f"这是第{i}次点击")
 
+    def test_edit_inscription(self):
+        ones = '1' * 10001
+        logging.info(len(ones))
+        # 输出结果
+        self.edit_inscription_page.input_text_box(ones)
+        # self.edit_inscription_page.input_text_box("好好好")
