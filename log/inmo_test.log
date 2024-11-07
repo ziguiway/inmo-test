@@ -4303,3 +4303,444 @@ UnknownError: An unknown server-side error occurred while processing the command
 2024-11-07 19:07:03,725 INFO [connect_wifi.py(connect_wifi:44)] - 开始连接wifi:inmoglass
 2024-11-07 19:07:08,883 ERROR [utils.py(is_el_exist_by_text:236)] - 元素未找到，[key_text: 已连接]，超时
 2024-11-07 19:07:08,883 INFO [connect_wifi.py(get_current_wifi_status:68)] - 当前未连接wifi
+2024-11-07 19:29:22,368 INFO [server.py(start_by_port:25)] - 在端口 4723 启动 Appium 服务器
+2024-11-07 19:29:22,376 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-07 19:29:22,391 INFO [server.py(start_by_port:25)] - 在端口 4724 启动 Appium 服务器
+2024-11-07 19:29:22,396 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-07 19:29:22,426 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-07 19:29:22,431 INFO [server.py(check_appium_status:60)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-07 19:29:22,776 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 19:29:22,901 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 19:29:22,953 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 19:59:23,360 INFO [server.py(is_device_connect:116)] - 实际连接的设备 UDID 列表: ['28918606999183', 'SXQ0223511006353']
+2024-11-07 19:59:23,360 INFO [server.py(is_device_connect:117)] - 配置的设备 UDID 列表: ['SXQ0223511006353', '28918606999183']
+2024-11-07 19:59:23,360 INFO [server.py(is_device_connect:128)] - 所有设备均已连接
+2024-11-07 19:59:31,857 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'SXQ0223511006353' not found
+
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'SXQ0223511006353' not found
+
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 19:59:31,946 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 19:59:31,991 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 20:00:51,510 WARNING [server.py(is_device_connect:125)] - 未连接的设备: ['SXQ0223511006353']
+2024-11-07 20:00:51,527 INFO [server.py(start_by_port:27)] - 在端口 4723 启动 Appium 服务器
+2024-11-07 20:00:51,533 INFO [server.py(check_appium_status:64)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-07 20:00:51,549 INFO [server.py(start_by_port:27)] - 在端口 4724 启动 Appium 服务器
+2024-11-07 20:00:51,556 INFO [server.py(check_appium_status:64)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-07 20:00:51,565 INFO [server.py(check_appium_status:64)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-07 20:00:51,572 INFO [server.py(check_appium_status:64)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-07 20:00:51,844 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 20:00:51,987 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 20:00:52,049 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Device SXQ0223511006353 was not in the list of connected devices
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 20:03:03,992 ERROR [server.py(is_device_connect:123)] - 未连接的设备: ['SXQ0223511006353']
+2024-11-07 20:06:41,586 INFO [server.py(is_device_connect:126)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
+2024-11-07 20:06:41,602 INFO [server.py(start_by_port:27)] - 在端口 4723 启动 Appium 服务器
+2024-11-07 20:06:41,608 INFO [server.py(check_appium_status:62)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-07 20:06:41,624 INFO [server.py(start_by_port:27)] - 在端口 4724 启动 Appium 服务器
+2024-11-07 20:06:41,630 INFO [server.py(check_appium_status:62)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-07 20:06:41,634 INFO [server.py(check_appium_status:62)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-07 20:06:41,638 INFO [server.py(check_appium_status:62)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-07 20:06:46,370 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. Details: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@f55ab62[id=-1, flags=0]
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.SessionNotCreatedException: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@f55ab62[id=-1, flags=0]
+	at io.appium.uiautomator2.handler.NewSession.safeHandle(NewSession.java:60)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:933)
+Caused by: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@f55ab62[id=-1, flags=0]
+	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:1498)
+	at android.app.UiAutomation.getServiceInfo(UiAutomation.java:614)
+	at androidx.test.uiautomator.UiDevice.getUiAutomation(UiDevice.java:1476)
+	at androidx.test.uiautomator.QueryController.<init>(QueryController.java:95)
+	at androidx.test.uiautomator.UiDevice.<init>(UiDevice.java:113)
+	at androidx.test.uiautomator.UiDevice.getInstance(UiDevice.java:294)
+	at io.appium.uiautomator2.utils.Device.getUiDevice(Device.java:34)
+	at io.appium.uiautomator2.core.UiAutomatorBridge.getUiAutomation(UiAutomatorBridge.java:57)
+	at io.appium.uiautomator2.core.UiAutomation.<init>(UiAutomation.java:32)
+	at io.appium.uiautomator2.core.UiAutomation.getInstance(UiAutomation.java:37)
+	at io.appium.uiautomator2.model.NotificationListener.<init>(NotificationListener.java:43)
+	at io.appium.uiautomator2.model.NotificationListener.getInstance(NotificationListener.java:48)
+	at io.appium.uiautomator2.model.settings.EnableNotificationListener.getValue(EnableNotificationListener.java:31)
+	at io.appium.uiautomator2.model.settings.EnableNotificationListener.getValue(EnableNotificationListener.java:21)
+	at io.appium.uiautomator2.model.settings.AbstractSetting.reset(AbstractSetting.java:57)
+	at io.appium.uiautomator2.model.settings.Settings.resetForNewSession(Settings.java:73)
+	at io.appium.uiautomator2.handler.NewSession.safeHandle(NewSession.java:52)
+	... 34 more
+
+
+2024-11-07 20:06:50,741 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-07 20:06:51,559 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-07 20:06:52,499 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-07 20:06:53,304 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-07 20:06:54,488 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-07 20:06:55,241 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-07 20:06:55,940 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-07 20:06:56,977 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-11-07 20:07:03,084 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 20:07:03,085 INFO [utils.py(start_bluetooth_broadcast:146)] - 开始发起蓝牙广播
+2024-11-07 20:07:03,085 INFO [utils.py(start_bluetooth_broadcast:149)] - 成功发起蓝牙广播
+2024-11-07 20:07:03,628 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-07 20:07:09,087 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-07 20:07:09,150 INFO [product.py(click_wifi:29)] - 点击了wifi
+2024-11-07 20:07:12,394 INFO [connect_wifi.py(get_current_wifi_status:65)] - 当前连接的wifi是：inmoglass
+2024-11-07 20:07:12,781 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-07 20:07:17,011 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-07 20:07:17,839 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-07 20:07:18,772 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-07 20:07:19,589 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-07 20:07:20,775 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-07 20:07:22,187 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-07 20:07:22,244 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-07 20:07:23,301 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-11-07 20:07:29,373 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 20:07:29,373 INFO [utils.py(start_bluetooth_broadcast:146)] - 开始发起蓝牙广播
+2024-11-07 20:07:29,373 INFO [utils.py(start_bluetooth_broadcast:149)] - 成功发起蓝牙广播
+2024-11-07 20:07:29,572 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-07 20:07:35,667 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-07 20:07:35,891 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-07 20:07:45,028 INFO [server.py(is_device_connect:126)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
+2024-11-07 20:07:45,047 INFO [server.py(start_by_port:27)] - 在端口 4723 启动 Appium 服务器
+2024-11-07 20:07:46,589 INFO [server.py(check_appium_status:62)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-07 20:07:46,605 INFO [server.py(start_by_port:27)] - 在端口 4724 启动 Appium 服务器
+2024-11-07 20:07:48,133 INFO [server.py(check_appium_status:62)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-07 20:07:48,139 INFO [server.py(check_appium_status:62)] - Appium 服务器在端口 4723 已启动并运行.
+2024-11-07 20:07:48,143 INFO [server.py(check_appium_status:62)] - Appium 服务器在端口 4724 已启动并运行.
+2024-11-07 20:07:54,193 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-07 20:07:54,987 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-07 20:07:55,933 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-07 20:07:56,755 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-07 20:07:57,969 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-07 20:07:58,736 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-07 20:07:59,437 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-07 20:08:00,493 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-11-07 20:08:06,682 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 20:08:06,682 INFO [utils.py(start_bluetooth_broadcast:146)] - 开始发起蓝牙广播
+2024-11-07 20:08:06,682 INFO [utils.py(start_bluetooth_broadcast:149)] - 成功发起蓝牙广播
+2024-11-07 20:08:06,855 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-07 20:08:10,551 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-07 20:08:10,796 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-07 20:08:15,136 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-07 20:08:15,953 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-07 20:08:16,906 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-07 20:08:17,695 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-07 20:08:18,897 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-07 20:08:19,764 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-07 20:08:20,718 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-11-07 20:08:24,937 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-11-07 20:08:26,646 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-11-07 20:08:26,714 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-11-07 20:08:27,540 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-11-07 20:08:28,741 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-11-07 20:08:30,156 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-11-07 20:08:30,266 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-11-07 20:08:31,317 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-11-07 20:08:37,354 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
+  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
+    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
+    super().__init__(
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
+    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
+    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+
+2024-11-07 20:08:37,355 INFO [utils.py(start_bluetooth_broadcast:146)] - 开始发起蓝牙广播
+2024-11-07 20:08:37,355 INFO [utils.py(start_bluetooth_broadcast:149)] - 成功发起蓝牙广播
+2024-11-07 20:08:38,194 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-11-07 20:08:41,954 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-11-07 20:08:42,207 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功

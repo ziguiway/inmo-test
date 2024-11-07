@@ -120,15 +120,17 @@ class FileUtils:
 
 
 class GlassesUtils:
-    @staticmethod
-    def is_screen_on(driver):
+
+    @classmethod
+    def is_screen_on(cls):
         """
         检查屏幕是否处于激活状态
-        :param driver:
         :return: bool
         """
+        driver = DriverUtils.get_driver(DriverType.GLASS)
         try:
-            screen_status = driver.execute_script("mobile: shell", {"command": "dumpsys power | grep 'mWakefulness'"})
+            screen_status = driver.execute_script("mobile: shell",
+                                                  {"command": "dumpsys power | grep 'mWakefulness'"})
             return 'Awake' in screen_status
         except Exception as e:  # 捕获异常并记录
             logging.error(f"Error checking screen status: {e}")
@@ -140,8 +142,8 @@ class GlassesUtils:
         发起蓝牙广播
         :return:
         """
-        logging.info("开始发起蓝牙广播")
         driver = DriverUtils.get_driver(DriverType.GLASS)
+        logging.info("开始发起蓝牙广播")
         if driver is not None:
             driver.unlock()
         logging.info("成功发起蓝牙广播")
@@ -152,12 +154,17 @@ class GlassesUtils:
         获取眼镜电池信息
         :return:
         """
+        driver = DriverUtils.get_driver(DriverType.ANDROID)
         logging.info("开始获取眼镜电池信息")
-        driver = DriverUtils.get_driver(DriverType.GLASS)
         battery_info = driver.execute_script('mobile: batteryInfo')
         logging.info("获取眼镜电池信息成功")
         return battery_info
 
+    @classmethod
+    def screenshot(cls, path):
+        driver = DriverUtils.get_driver(DriverType.GLASS)
+        print(driver)
+        driver.save_screenshot(path)
 
 class LoggerUtils:
     _instance = None
@@ -239,3 +246,11 @@ class ElementUtils:
             logging.error(f"获取文本元素失败, [key_text: {key_text}], 异常信息: {e}")
             return False  # 其他异常情况也返回 False
 
+
+class AndroidUtils:
+    pass
+
+if __name__ == '__main__':
+    # info = GlassesUtils.get_battery_info()
+    # print(info)
+    GlassesUtils.screenshot("a.png")
