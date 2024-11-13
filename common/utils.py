@@ -34,7 +34,7 @@ class DriverUtils:
                 appium_server_url = config.get('serverUrl')
                 options = UiAutomator2Options().load_capabilities(config)
                 cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                # cls.__drivers[driver_type].implicitly_wait(30)
+                cls.__drivers[driver_type].implicitly_wait(30)
                 logging.info(f"获取 {driver_type} Driver 成功")
             except Exception as e:
                 cls.__handle_exception(e, f"初始化 {driver_type} 驱动程序")
@@ -143,10 +143,12 @@ class GlassesUtils:
         :return:
         """
         driver = DriverUtils.get_driver(DriverType.GLASS)
-        logging.info("开始发起蓝牙广播")
-        if driver is not None:
+        if driver is None:
+            logging.error("获取驱动失败")
+        else:
+            logging.info("开始发起蓝牙广播")
             driver.unlock()
-        logging.info("成功发起蓝牙广播")
+            logging.info("成功发起蓝牙广播")
 
     @classmethod
     def get_battery_info(cls):

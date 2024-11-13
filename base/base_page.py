@@ -18,10 +18,10 @@ class BasePage:
             return wait.until(lambda x: x.find_elements(*loc))
         return wait.until(lambda x: x.find_element(*loc))
 
-    def base_find_element(self, loc, timeout=10, poll_frequency=0.5):
+    def base_find_element(self, loc, timeout=10, poll_frequency=1):
         return self.__base_find(loc, timeout, poll_frequency, multiple=False)
 
-    def base_find_elements(self, loc, timeout=10, poll_frequency=0.5):
+    def base_find_elements(self, loc, timeout=10, poll_frequency=1):
         return self.__base_find(loc, timeout, poll_frequency, multiple=True)
 
     def base_click(self, loc):

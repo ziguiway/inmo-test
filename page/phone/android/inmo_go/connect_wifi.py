@@ -72,4 +72,4 @@ class ConnectWifiPage(BasePageAndroid):
 if __name__ == '__main__':
     driver = DriverUtils.get_driver(DriverType.ANDROID, False)
     connect_wifi_page = ConnectWifiPage(driver)
-    connect_wifi_page.connect_wifi("inmoglass", "20210108")
+    connect_wifi_page.connect_wifi("inmoglass-5G", "20210108")

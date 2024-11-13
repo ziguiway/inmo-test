@@ -13,7 +13,7 @@ from config import BASE_PATH
 
 class AppiumServer:
     def get_appium_server_ports(self):
-        # 读取配置文件获取所有 Appium 服务器的端口
+        """读取配置文件获取所有 Appium 服务器的端口"""
         port_list = []
         config_list = FileUtils.load_yaml_config(f"{BASE_PATH}/config.yaml")['appium']['devices']
         for config in config_list:
@@ -22,27 +22,29 @@ class AppiumServer:
         return port_list
 
     def start_by_port(self, port=4723):
+        """在指定端口启动 Appium 服务器"""
         command = f'start cmd /C "appium --allow-insecure=adb_shell -p {port}"'
-        os.system(command)
-        logging.info("在端口 %d 启动 Appium 服务器", port)
-        # 启动后等待并检查状态
-        if not self.is_running(port):
-            logging.error("在端口 %d 启动的 Appium 服务器未能成功启动.", port)
+        try:
+            os.system(command)
+            # 启动后等待并检查状态
+            self.is_running(port)
+        except Exception as e:
+            logging.error("启动 Appium 服务器失败: %s", e)
 
     def start_all(self, port_list=None):
+        """启动所有配置的 Appium 服务器"""
         if port_list is None:
             port_list = self.get_appium_server_ports()
         for port in port_list:
             self.start_by_port(port)
-        if not self.are_all_running():
-            logging.error("并非所有 Appium 服务器都已成功启动.")
+        self.are_all_running()
 
     def is_running(self, port, check_interval=1, timeout=60):
-        # 动态等待单个 Appium 服务启动
+        """检查单个 Appium 服务是否启动"""
         return self.check_appium_status(port, timeout, check_interval)
 
     def are_all_running(self, check_interval=1, timeout=60):
-        # 检查所有 Appium 服务器是否已启动
+        """检查所有 Appium 服务器是否已启动"""
         port_list = self.get_appium_server_ports()
         all_running = True
 
@@ -50,19 +52,29 @@ class AppiumServer:
             if not self.check_appium_status(port, timeout, check_interval):
                 all_running = False
 
+        if all_running:
+            logging.info("所有 Appium 服务器均已成功启动.")
         return all_running
 
     def check_appium_status(self, port, timeout, check_interval):
-        # 检查指定端口的 Appium 服务状态
+        """检查指定端口的 Appium 服务状态"""
         start_time = time.time()
+        server_started = False
+
         while True:
             try:
                 response = requests.get(f'http://127.0.0.1:{port}/status')
                 if response.status_code == 200:
-                    logging.info("Appium 服务器在端口 %d 已启动并运行.", port)
+                    if not server_started:
+                        logging.info("Appium 服务器在端口 %d 已启动并运行.", port)
+                        server_started = True
+                    return True
+                elif server_started:
+                    # 如果已经启动，返回成功，不记录日志
                     return True
             except requests.ConnectionError:
-                logging.warning("appium服务正在启动，连接失败，正在重试...")
+                if not server_started:
+                    logging.warning("Appium 服务正在启动，连接失败，正在重试...")
 
             if time.time() - start_time > timeout:
                 logging.error("等待 Appium 服务器在端口 %d 超时.", port)
@@ -70,24 +82,22 @@ class AppiumServer:
             time.sleep(check_interval)
 
     def stop_all(self):
-        # 停止所有启动的 Appium 进程
+        """停止所有启动的 Appium 进程"""
         for proc in psutil.process_iter(['pid', 'name']):
             if proc.info['name'] == 'node.exe':
                 proc.terminate()  # 终止进程
                 logging.info("停止了 PID 为 %d 的 Appium 服务器", proc.info['pid'])
 
     def get_connected_device_udid(self):
+        """获取连接的设备 UDID 列表"""
         try:
-            # 调用 adb devices 命令
             result = subprocess.run(['adb', 'devices'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
-            # 检查命令是否成功
             if result.returncode == 0:
-                # 处理输出，提取设备序列号
                 lines = result.stdout.strip().split('\n')
                 devices = []
                 for line in lines[1:]:  # 跳过第一行标题
-                    if line.strip():  # 确保行不为空
+                    if line.strip():
                         device_info = line.split('\t')
                         if len(device_info) > 0:
                             devices.append(device_info[0])  # 设备序列号
@@ -100,6 +110,7 @@ class AppiumServer:
             return None
 
     def is_device_connect(self):
+        """检查所有配置的设备是否已连接"""
         config_udid_list = []
         not_connect_list = []
 
@@ -120,12 +131,16 @@ class AppiumServer:
                 not_connect_list.append(item)
 
         if not_connect_list:
-            logging.error(f"请检查设备的连接后重试,未连接的设备: {not_connect_list}")
+            logging.error(f"请检查设备的连接后重试, 未连接的设备: {not_connect_list}")
             return False
 
         logging.info(f"所有设备均已连接 UDID 列表: {config_udid_list}")
         return True
+
+
 if __name__ == "__main__":
+    # 配置日志
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
     appium_server = AppiumServer()
-    # udids = appium_server.get_connected_device_udid()
     appium_server.is_device_connect()
