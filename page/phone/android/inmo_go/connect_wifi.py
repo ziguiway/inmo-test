@@ -23,10 +23,20 @@ class ConnectWifiPage(BasePageAndroid):
         self.loc_wifi_connect_status = (AppiumBy.ID, "com.inmo.inmoglasses:id/tv_wifi_connect_state")
 
     def get_wifi_list(self):
+        """
+        获取WiFi列表
+        :return:
+        """
         wifi_list = self.base_find_elements(self.loc_wifi_list)
         return wifi_list
 
     def connect_wifi(self, wifi_name, wifi_password):
+        """
+        连接wifi
+        :param wifi_name:
+        :param wifi_password:
+        :return:
+        """
         wifi_list = self.get_wifi_list()
         status, current_wifi_name = self.get_current_wifi_status()
         if status == WifiStatusType.CONNECTED and current_wifi_name == wifi_name:
@@ -47,6 +57,12 @@ class ConnectWifiPage(BasePageAndroid):
             logging.info(f"wifi:{wifi_name}已连接")
 
     def custom_net_config(self, wifi_name, wifi_password):
+        """
+        自定义配网
+        :param wifi_name:
+        :param wifi_password:
+        :return:
+        """
         self.base_click(self.loc_custom_net_config_btn)
         self.base_input(self.loc_custom_wifi_name, wifi_name)
         self.base_input(self.loc_custom_wifi_password, wifi_password)
@@ -56,9 +72,17 @@ class ConnectWifiPage(BasePageAndroid):
         pass
 
     def refresh_wifi_list(self):
+        """
+        刷新WiFi列表
+        :return:
+        """
         self.base_click(self.loc_refresh_btn)
 
     def get_current_wifi_status(self):
+        """
+        获取当前wifi状态
+        :return:
+        """
         is_connected = ElementUtils.is_el_exist_by_text(DriverType.ANDROID, WifiStatusType.CONNECTED.value, timeout=5)
         if is_connected:
             current_wifi = self.get_wifi_list()[0]
