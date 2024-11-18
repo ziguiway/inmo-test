@@ -93,6 +93,18 @@ class BasePage:
         # 执行滑动操作
         self.driver.swipe(x, y, target_x, y, time)
 
+    def base_swipe_screen(self, start_x, start_y, end_x, end_y, duration=1000):
+        """
+        在屏幕上进行滑动操作。
+
+        :param start_x: 滑动开始点的X坐标
+        :param start_y: 滑动开始点的Y坐标
+        :param end_x: 滑动结束点的X坐标
+        :param end_y: 滑动结束点的Y坐标
+        :param duration: 滑动操作的持续时间（毫秒），默认为1000ms
+        """
+        self.driver.swipe(start_x, start_y, end_x, end_y, duration)
+
 
 
 
