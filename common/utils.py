@@ -34,7 +34,7 @@ class DriverUtils:
                 appium_server_url = config.get('serverUrl')
                 options = UiAutomator2Options().load_capabilities(config)
                 cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                cls.__drivers[driver_type].implicitly_wait(30)
+                # cls.__drivers[driver_type].implicitly_wait(30)
                 logging.info(f"获取 {driver_type} Driver 成功")
             except Exception as e:
                 cls.__handle_exception(e, f"初始化 {driver_type} 驱动程序")
@@ -137,12 +137,12 @@ class GlassesUtils:
             return False
 
     @classmethod
-    def start_bluetooth_broadcast(cls):
+    def start_bluetooth_broadcast(cls, is_reset=False):
         """
         发起蓝牙广播
         :return:
         """
-        driver = DriverUtils.get_driver(DriverType.GLASS)
+        driver = DriverUtils.get_driver(DriverType.GLASS, is_reset)
         if driver is None:
             logging.error("获取驱动失败")
         else:
@@ -151,12 +151,12 @@ class GlassesUtils:
             logging.info("成功发起蓝牙广播")
 
     @classmethod
-    def get_battery_info(cls):
+    def get_battery_info(cls, is_reset=False):
         """
         获取眼镜电池信息
         :return:
         """
-        driver = DriverUtils.get_driver(DriverType.ANDROID)
+        driver = DriverUtils.get_driver(DriverType.ANDROID, is_reset)
         logging.info("开始获取眼镜电池信息")
         battery_info = driver.execute_script('mobile: batteryInfo')
         logging.info("获取眼镜电池信息成功")

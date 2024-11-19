@@ -224,3 +224,18 @@ appium --allow-insecure=adb_shell -p {port}
 ```shell
 pytest
 ```
+
+## 四、可能遇到的报错
+
+#### 报错一
+
+> Original error: Appium Settings app is not running after 5000ms
+
+##### 问题分析
+
+眼镜的driver获取有概率会超时，就会报这个错误。起初我以为是SDK的版本不对应，才导致的启动慢导致获取超时，但是我试了很多的SDK版本都不行，还是会有这个问题。后面又怀疑是appium版本的问题，经过一番折腾，然并卵。经过不断地排查，最终我发现，关闭anlink投屏软件后，这个报错惊人的消失了！！！原来找了这么久的问题出在投屏身上😑
+
+##### 解决办法
+
+换一个投屏软件。目前推荐使用Vysor,在使用过程中比较稳定，没有出现报错。
+

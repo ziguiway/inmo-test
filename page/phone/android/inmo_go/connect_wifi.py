@@ -37,15 +37,15 @@ class ConnectWifiPage(BasePageAndroid):
         :param wifi_password:
         :return:
         """
-        wifi_list = self.get_wifi_list()
         status, current_wifi_name = self.get_current_wifi_status()
+
+        if wifi_name not in [element.text for element in self.get_wifi_list()]:
+            logging.info(f"找不到该wifi: {wifi_name}")
+            return
         if status == WifiStatusType.CONNECTED and current_wifi_name == wifi_name:
             logging.info(f"当前已连接wifi：{wifi_name}")
             return
-        if wifi_name not in [element.text for element in wifi_list]:
-            logging.info(f"找不到：{wifi_name}")
-            return
-        for wifi in wifi_list:
+        for wifi in self.get_wifi_list():
             if wifi_name == wifi.text:
                 wifi.click()
                 break
@@ -96,4 +96,6 @@ class ConnectWifiPage(BasePageAndroid):
 if __name__ == '__main__':
     driver = DriverUtils.get_driver(DriverType.ANDROID, False)
     connect_wifi_page = ConnectWifiPage(driver)
-    connect_wifi_page.connect_wifi("inmoglass-5G", "20210108")
+    wifi_list = connect_wifi_page.get_wifi_list()
+    print([element.text for element in wifi_list])
+    connect_wifi_page.connect_wifi("inmoglass", "20210108")
