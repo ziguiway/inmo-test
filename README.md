@@ -1,6 +1,6 @@
-# INMO-TEST自动化平台 📱
+# INMO-TEST自动化平台
 
-## 一、环境的安装 🛠️
+## 一、环境的安装
 
 > [!NOTE]
 >
@@ -24,7 +24,7 @@
 
 ### 1.安装[nvm](https://github.com/coreybutler/nvm-windows/releases)和nodejs
 
-请参考[nvm安装和使用保姆级教程（详细）-CSDN博客](https://blog.csdn.net/weixin_38383877/article/details/143077797) 📝
+请参考[nvm安装和使用保姆级教程（详细）-CSDN博客](https://blog.csdn.net/weixin_38383877/article/details/143077797) 
 
 ### 2.安装appium
 
@@ -36,11 +36,11 @@ npm i -g appium@2.6.0
 
 ### 4.安装Android SDK
 
-请参考[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050) 📱
+请参考[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050) 
 
 ### 5.安装Java JDK
 
-请参考[超详细JDK下载与安装步骤（保姆级，含安装包）_jdk下载与安装教程-CSDN博客](https://blog.csdn.net/VA_AV/article/details/138508891) ☕
+请参考[超详细JDK下载与安装步骤（保姆级，含安装包）_jdk下载与安装教程-CSDN博客](https://blog.csdn.net/VA_AV/article/details/138508891) 
 
 ### 6.安装UiAutomator2 驱动
 
@@ -56,15 +56,15 @@ appium driver install uiautomator2@3.9.0
 
 ### 7.安装python
 
-请参考[Python安装教程，超详细！！！-CSDN博客](https://blog.csdn.net/maiya_yayaya/article/details/131450517) 🐍
+请参考[Python安装教程，超详细！！！-CSDN博客](https://blog.csdn.net/maiya_yayaya/article/details/131450517) 
 
 ### 8.安装git
 
-请参考[windows安装git（全网最详细，保姆教程）-CSDN博客](https://blog.csdn.net/weixin_42242910/article/details/136297201) 🌿
+请参考[windows安装git（全网最详细，保姆教程）-CSDN博客](https://blog.csdn.net/weixin_42242910/article/details/136297201) 
 
-## 二、快速开始 🚀
+## 二、快速开始 
 
-### 1.将代码clone到本地并安装运行所需的库
+### 1.将代码clone到本地并安装行所需的库
 
 ```shell
 git clone https://github.com/ziguiway/inmo-test.git
@@ -72,7 +72,7 @@ cd inmo-test
 pip install -r requirements.txt
 ```
 
-### 2.修改udid 📲
+### 2.修改udid 
 
 > [!TIP]
 >
@@ -87,13 +87,13 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 三、项目的介绍 📝
+## 三、项目的介绍 
 
 ### 1.PO模式
 
 本项目采用POM的设计思想进行设计。PO模式是一种自动化测试设计模式，将页面定位和业务操作分开，也就是把对象定位和测试脚本分开，从而提供可维护性。PO模式可以把一个页面分为三层，对象库层、操作层、业务层。
 
-### 2.目录结构 🗂️
+### 2.目录结构 
 
 ```
 |-- inmo-test
@@ -126,7 +126,7 @@ python main.py
 - requirements.txt：项目运行所需的库
 - server.py：提供项目所需的服务
 
-### 3.在哪里写测试用例？ 🖊️
+### 3.在哪里写测试用例？ 
 
 在scripts包下找到对应的项目，编写测试用例即可
 
@@ -194,7 +194,7 @@ class Test:
         assert bt_status in "眼镜已连接APP"
 ```
 
-### 4.怎么执行测试用例？ 🏃
+### 4.怎么执行测试用例？ 
 
 #### 方式一（推荐）：运行main.py
 
@@ -224,7 +224,7 @@ appium --allow-insecure=adb_shell -p {port}
 pytest
 ```
 
-## 四、可能遇到的问题 ⚠️
+## 四、可能遇到的问题 
 
 ### 报错一
 
@@ -259,16 +259,16 @@ pytest
 
 参考[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050)，安装最新的SDK
 
-## 五、问题反馈 📣
+## 五、问题反馈 
 
 在使用`INMO-TEST`自动化测试框架的过程中，如果遇到任何问题，请随时向我反馈。反馈内容包括但不限于：
 
-- **脚本报错** 🚨：任何在运行测试脚本时遇到的错误或异常。
-- **使用不便** 😕：如果框架的某些功能使用起来不直观或有困难。
-- **性能问题** ⏱️：测试执行速度慢、资源消耗过高等性能相关问题。
-- **功能需求** 📝：你希望框架添加或改进的功能。
-- **用例覆盖** 🔍：自动化的用例覆盖不全面。
+- **脚本报错** ：任何在运行测试脚本时遇到的错误或异常。
+- **使用不便** ：如果框架的某些功能使用起来不直观或有困难。
+- **性能问题** ：测试执行速度慢、资源消耗过高等性能相关问题。
+- **功能需求** ：你希望框架添加或改进的功能。
+- **用例覆盖** ：自动化的用例覆盖不全面。
 
-此外，如果你有任何更好的技术实现方式或创新的思路，也欢迎与我讨论。我们的共同目标是让`INMO-TEST`自动化框架不断优化和提升，使其成为我们测试工作中的得力助手和利器 🔧。
+此外，如果你有任何更好的技术实现方式或创新的思路，也欢迎与我讨论。我们的共同目标是让`INMO-TEST`自动化框架不断优化和提升，使其成为我们测试工作中的得力助手和利器 。
 
-请提供详细的反馈，包括问题的描述、重现步骤、预期结果与实际结果、以及任何相关的环境信息。你的反馈是我们改进和完善`INMO-TEST`的关键力量 🚀。
+请提供详细的反馈，包括问题的描述、重现步骤、预期结果与实际结果、以及任何相关的环境信息。你的反馈是我们改进和完善`INMO-TEST`的关键力量 。
