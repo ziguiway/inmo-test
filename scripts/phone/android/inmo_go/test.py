@@ -28,7 +28,6 @@ class Test:
         self.tutorial_list_page.go2()
         self.tutorial_list_page.allow_location()
         self.tutorial_list_page.allow_find_device()
-        time.sleep(0.5)
         self.tutorial_list_page.allow_read_app()
         self.product_page.click_bt()
         GlassesUtils.start_bluetooth_broadcast()
