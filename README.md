@@ -28,10 +28,10 @@
 
 ### 2.安装appium
 
-使用 `npm` 在全局范围内安装 Appium,在命令行输入`npm i -g appium@2.12.1`，耗时可能比较久，请耐心等待安装完成
+使用 `npm` 在全局范围内安装 Appium,在命令行输入`npm i -g appium@2.6.0`，耗时可能比较久，请耐心等待安装完成
 
 ```shell
-npm i -g appium@2.12.1
+npm i -g appium@2.6.0
 ```
 
 
@@ -51,7 +51,7 @@ npm i -g appium@2.12.1
 命令行输入`appium driver install uiautomator2@2.45.1`，回车，等待安装完成。
 
 ``````shell
-appium driver install uiautomator2@2.45.1
+appium driver install uiautomator2@3.9.0
 ``````
 
 
