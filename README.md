@@ -200,7 +200,7 @@ class Test:
 
 打开powershell,进入项目的根路径,输入`python main.py`，回车
 
-```python
+``` python
 python main.py
 ```
 
@@ -210,7 +210,7 @@ python main.py
 
 1.打开powershell
 
-```shell
+``` shell
 appium --allow-insecure=adb_shell -p {port}
 ```
 
@@ -220,7 +220,7 @@ appium --allow-insecure=adb_shell -p {port}
 
 2.在项目的根路径下,输入`pytest`，回车
 
-```shell
+``` shell
 pytest
 ```
 
