@@ -1,27 +1,35 @@
-2024-11-25 13:50:04,540 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
-2024-11-25 13:50:06,719 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:09,749 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:12,780 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:15,812 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:18,846 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:21,896 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:24,927 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:27,963 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:30,993 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:34,025 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:37,060 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:40,089 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:43,129 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:46,164 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:49,200 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:52,235 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:55,264 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:50:56,829 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 13:50:58,402 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 13:50:58,408 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 13:50:58,412 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 13:50:58,412 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 13:51:24,526 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+2024-12-05 11:33:27,466 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
+2024-12-05 11:33:29,592 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:32,630 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:35,670 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:38,698 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:41,746 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:44,778 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:47,816 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:50,861 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:53,904 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:56,940 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:33:59,981 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:34:03,029 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:34:06,064 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:34:09,111 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:34:12,153 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:34:15,199 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:34:18,250 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
+2024-12-05 11:34:19,360 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
+2024-12-05 11:34:20,954 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
+2024-12-05 11:34:20,960 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
+2024-12-05 11:34:20,963 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
+2024-12-05 11:34:20,963 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
+2024-12-05 11:34:28,139 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:34:29,787 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-12-05 11:34:29,877 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-12-05 11:34:30,679 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-12-05 11:34:31,896 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-12-05 11:34:32,691 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-12-05 11:34:33,360 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-12-05 11:34:34,403 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-12-05 11:34:41,627 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
   File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
     cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -36,26 +44,25 @@
     self.error_handler.check_response(response)
   File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
 Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
     at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
     at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
 
-2024-11-25 13:51:29,576 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 13:51:40,483 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 13:51:50,681 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 13:52:00,865 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 13:52:11,044 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 13:52:21,194 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 13:52:31,860 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 13:53:39,914 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
-2024-11-25 13:53:39,948 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 13:53:39,977 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 13:53:39,987 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 13:53:39,991 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 13:53:39,992 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 13:54:11,956 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+2024-12-05 11:34:41,627 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
+2024-12-05 11:34:41,812 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-12-05 11:34:44,921 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-12-05 11:34:45,197 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:34:49,308 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:34:50,110 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-12-05 11:34:51,291 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-12-05 11:34:52,047 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-12-05 11:34:53,259 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-12-05 11:34:54,015 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-12-05 11:34:54,728 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-12-05 11:34:55,907 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-12-05 11:35:01,986 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
   File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
     cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -70,13 +77,28 @@ UnknownError: An unknown server-side error occurred while processing the command
     self.error_handler.check_response(response)
   File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
 Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
     at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
     at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
 
-2024-11-25 13:54:33,849 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
+2024-12-05 11:35:01,987 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
+2024-12-05 11:35:02,218 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-12-05 11:35:06,099 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-12-05 11:35:06,235 INFO [product.py(click_wifi:29)] - 点击了wifi
+2024-12-05 11:35:09,305 INFO [connect_wifi.py(get_current_wifi_status:89)] - 当前连接的wifi是：inmoglass
+2024-12-05 11:35:10,633 INFO [connect_wifi.py(connect_wifi:46)] - 当前已连接wifi：inmoglass
+2024-12-05 11:35:11,038 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:35:15,299 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:35:16,126 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-12-05 11:35:16,757 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-12-05 11:35:17,550 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-12-05 11:35:18,759 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-12-05 11:35:19,636 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-12-05 11:35:20,336 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-12-05 11:35:21,511 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-12-05 11:35:27,588 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
   File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
     cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -91,991 +113,133 @@ UnknownError: An unknown server-side error occurred while processing the command
     self.error_handler.check_response(response)
   File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
 Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Appium Settings app is not running after 5000ms
     at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
     at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
 
-2024-11-25 13:54:55,637 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 13:59:09,967 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
-2024-11-25 13:59:12,041 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 13:59:13,564 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 13:59:15,125 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 13:59:15,129 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 13:59:15,133 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 13:59:15,133 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 13:59:38,573 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:00:00,698 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:00:21,877 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:02:07,439 ERROR [server.py(is_device_connect:134)] - 请检查设备的连接后重试, 未连接的设备: ['28918606999183']
-2024-11-25 14:02:49,730 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:02:49,769 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:02:49,775 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:02:49,780 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:02:49,780 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:02:58,652 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:03:09,488 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:03:19,702 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:03:28,135 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275B694FF80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/84904da9-1d84-422f-968c-c8907cd79cfa
-2024-11-25 14:03:30,165 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275B694F950>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/84904da9-1d84-422f-968c-c8907cd79cfa
-2024-11-25 14:03:32,198 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275B694DD60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/84904da9-1d84-422f-968c-c8907cd79cfa
-2024-11-25 14:04:47,927 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:04:50,960 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:04:53,992 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:04:57,024 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:04:58,545 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:05:00,104 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:05:00,109 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:05:00,113 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:05:00,113 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:05:41,469 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:05:46,400 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:05:57,209 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:06:07,399 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:06:17,583 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 14:06:27,758 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 14:06:37,920 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 14:06:48,590 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 14:06:58,799 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 14:06:58,938 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:06:58,938 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
-2024-11-25 14:07:09,816 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 14:07:21,305 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 14:07:25,811 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:07:36,673 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:09:24,543 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:09:24,575 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:09:24,582 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:09:24,586 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:09:24,586 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:09:47,601 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:09:58,805 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:10:24,802 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:10:24,828 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:10:24,834 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:10:24,839 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:10:24,839 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:11:24,320 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:12:49,744 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:12:52,920 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 shell dumpsys activity services io.appium.settings' exited with code 4294967295'; Command output: error: device not found
-
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 shell dumpsys activity services io.appium.settings' exited with code 4294967295'; Command output: error: device not found
-
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:13:00,315 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:13:00,338 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:13:00,344 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:13:00,348 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:13:00,349 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:13:17,001 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:18:22,018 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:25,072 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:28,110 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:31,156 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:34,213 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:37,251 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:40,297 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:43,352 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:46,402 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:49,449 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:52,487 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:55,533 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:18:57,092 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:18:58,651 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:18:58,655 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:18:58,659 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:18:58,659 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:19:12,233 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:20:11,060 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000299AA2A4DA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b3a1ff37-4de9-4725-b468-6906f28bb20a
-2024-11-25 14:20:39,029 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:20:40,580 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:20:40,585 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:20:40,588 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:20:40,588 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:20:45,958 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:24:17,837 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:24:18,848 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:24:19,897 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:25:42,875 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:25:44,900 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:25:46,451 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:25:46,455 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:25:46,459 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:25:46,459 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:26:21,344 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:26:25,605 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk' exited with code 1'; Command output: adb: failed to install C:\Users\19815\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.9.apk: Failure [INSTALL_FAILED_ABORTED: User rejected permissions]
-
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk' exited with code 1'; Command output: adb: failed to install C:\Users\19815\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.9.apk: Failure [INSTALL_FAILED_ABORTED: User rejected permissions]
-
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:26:46,724 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:28:09,367 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:28:09,387 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:28:09,393 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:28:09,399 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:28:09,399 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:28:15,878 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:28:45,803 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002975C4FF5F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e0b19eb-90a2-4b0a-8f44-e70d7305706b
-2024-11-25 14:28:47,847 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002975C4FF320>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e0b19eb-90a2-4b0a-8f44-e70d7305706b
-2024-11-25 14:28:49,898 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002975C4FEA80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e0b19eb-90a2-4b0a-8f44-e70d7305706b
-2024-11-25 14:28:53,495 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:28:55,041 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:28:55,045 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:28:55,049 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:28:55,049 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:29:02,448 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:33:24,445 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:33:26,463 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:33:28,017 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:33:28,023 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:33:28,026 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:33:28,026 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:33:34,874 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:36:03,906 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CADD25EC30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f8894631-e59c-4967-9048-8208bf626568
-2024-11-25 14:36:05,941 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CADD25E750>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f8894631-e59c-4967-9048-8208bf626568
-2024-11-25 14:36:07,988 WARNING [connectionpool.py(urlopen:827)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CADD25E420>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f8894631-e59c-4967-9048-8208bf626568
-2024-11-25 14:40:03,403 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:40:04,945 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:40:04,949 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:40:04,954 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:40:04,954 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:40:11,557 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\connectionpool.py", line 468, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 3, in raise_from
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\connectionpool.py", line 463, in _make_request
-    httplib_response = conn.getresponse()
-                       ^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\http\client.py", line 1428, in getresponse
-    response.begin()
-  File "D:\Program Files\Python312\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\socket.py", line 720, in readinto
-    return self._sock.recv_into(b)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
-    response = self.command_executor.execute(driver_command, params)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
-    return self._request(command_info[0], url, body=data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
-    response = self._conn.request(method, url, body=body, headers=headers)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\request.py", line 81, in request
-    return self.request_encode_body(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\request.py", line 173, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\poolmanager.py", line 376, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\util\retry.py", line 552, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\packages\six.py", line 769, in reraise
-    raise value.with_traceback(tb)
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\connectionpool.py", line 468, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 3, in raise_from
-  File "D:\Program Files\Python312\Lib\site-packages\urllib3\connectionpool.py", line 463, in _make_request
-    httplib_response = conn.getresponse()
-                       ^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\http\client.py", line 1428, in getresponse
-    response.begin()
-  File "D:\Program Files\Python312\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\socket.py", line 720, in readinto
-    return self._sock.recv_into(b)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
-
-2024-11-25 14:40:41,273 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:40:42,841 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:40:42,845 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:40:42,849 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:40:42,849 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:40:48,062 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:40:58,937 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:41:09,084 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:41:19,271 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 14:41:29,427 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 14:41:39,561 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 14:41:50,223 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 14:42:00,404 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 14:42:00,524 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:42:00,524 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
-2024-11-25 14:42:11,090 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 14:42:16,765 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:42:27,614 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:42:37,795 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:42:47,974 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 14:42:58,142 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 14:43:08,298 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 14:43:18,968 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 14:43:29,135 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 14:43:29,187 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:43:29,187 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
-2024-11-25 14:43:39,541 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 14:43:44,016 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:43:54,764 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:43:54,785 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:43:54,791 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:43:54,795 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:43:54,795 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:44:00,650 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:44:11,525 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:44:21,719 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:45:55,611 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:45:58,632 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:46:01,690 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:46:04,734 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:46:06,250 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:46:07,791 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:46:07,796 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:46:07,798 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:46:07,799 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:46:49,299 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe' -P 5037 -s SXQ0223511006353 install -r --no-incremental C:\\Users\\19815\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:46:53,955 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:47:04,866 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:47:15,068 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:47:25,274 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 14:47:35,433 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 14:50:52,101 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:50:55,144 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:50:58,186 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:01,230 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:04,254 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:07,296 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:10,330 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:13,350 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:16,403 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:19,448 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:22,481 WARNING [server.py(check_appium_status:77)] - Appium 服务正在启动，连接失败，正在重试...
-2024-11-25 14:51:24,567 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:51:26,146 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:51:26,152 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:51:26,155 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:51:26,155 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:51:39,494 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:51:50,382 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:52:00,565 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:52:10,733 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 14:52:20,891 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 14:52:31,020 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 14:52:41,180 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 14:52:51,372 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 14:52:51,617 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:52:51,618 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
-2024-11-25 14:53:02,256 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 14:53:06,715 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:53:17,580 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:53:27,753 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:53:37,935 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 14:53:48,079 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 14:53:56,760 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:53:58,308 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:53:58,313 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:53:58,316 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:53:58,316 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:54:04,289 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:54:15,144 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:54:25,343 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:54:35,540 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 14:54:45,719 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 14:54:55,881 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 14:55:06,012 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 14:55:16,220 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 14:58:15,167 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:58:16,750 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:58:16,755 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 14:58:16,758 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 14:58:16,758 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 14:58:22,816 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 14:58:33,714 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 14:58:43,897 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 14:58:54,097 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 14:59:04,344 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 14:59:14,499 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 14:59:24,669 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 14:59:34,828 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 14:59:34,927 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 14:59:34,928 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
-2024-11-25 14:59:45,105 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 14:59:55,573 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 15:00:00,049 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 15:00:10,923 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 15:00:21,102 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 15:00:31,324 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 15:00:41,500 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 15:00:51,656 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 15:01:01,759 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 15:01:11,945 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 15:01:12,050 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 15:01:12,051 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
-2024-11-25 15:01:22,236 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 15:01:33,042 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 15:01:37,458 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 15:01:48,323 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 15:01:58,510 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 15:02:08,678 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 15:02:18,836 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 15:02:29,015 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 15:02:39,159 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 15:02:49,364 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 15:02:49,418 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.GLASS 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 36, in __get_driver
-    cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 226, in __init__
-    super().__init__(
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 212, in __init__
-    self.start_session(capabilities)
-  File "D:\Program Files\Python312\Lib\site-packages\appium\webdriver\webdriver.py", line 316, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, w3c_caps)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
-    self.error_handler.check_response(response)
-  File "D:\Program Files\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 28918606999183 was not in the list of connected devices
-    at getResponseForW3CError (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
-    at asyncHandler (D:\Program Files\nvm\v20.18.0\node_global\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
-
-2024-11-25 15:02:49,418 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
-2024-11-25 15:03:01,988 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 15:03:12,754 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 15:19:06,787 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 15:19:08,830 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 15:19:08,836 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 15:19:08,841 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 15:19:08,841 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 15:19:09,093 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 33, in __get_driver
-    config = cls.__get_driver_config(driver_type, is_reset)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\code\Python\inmo-test\common\utils.py", line 65, in __get_driver_config
-    raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
-ValueError: 未找到适用于 SXQ0223511006353 的配置
-
-2024-11-25 15:19:09,233 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 33, in __get_driver
-    config = cls.__get_driver_config(driver_type, is_reset)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\code\Python\inmo-test\common\utils.py", line 65, in __get_driver_config
-    raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
-ValueError: 未找到适用于 SXQ0223511006353 的配置
-
-2024-11-25 15:19:09,241 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 33, in __get_driver
-    config = cls.__get_driver_config(driver_type, is_reset)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\code\Python\inmo-test\common\utils.py", line 65, in __get_driver_config
-    raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
-ValueError: 未找到适用于 SXQ0223511006353 的配置
-
-2024-11-25 15:19:15,050 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 15:19:16,601 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 15:19:16,610 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 15:19:16,616 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 15:19:16,616 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 15:20:09,926 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 15:20:11,459 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 15:20:11,464 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 15:20:11,467 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 15:20:11,468 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 15:20:11,571 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 33, in __get_driver
-    config = cls.__get_driver_config(driver_type, is_reset)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\code\Python\inmo-test\common\utils.py", line 65, in __get_driver_config
-    raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
-ValueError: 未找到适用于 SXQ0223511006353 的配置
-
-2024-11-25 15:20:11,619 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 33, in __get_driver
-    config = cls.__get_driver_config(driver_type, is_reset)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\code\Python\inmo-test\common\utils.py", line 65, in __get_driver_config
-    raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
-ValueError: 未找到适用于 SXQ0223511006353 的配置
-
-2024-11-25 15:20:11,625 ERROR [utils.py(__handle_exception:26)] - 初始化 DriverType.ANDROID 驱动程序失败: Traceback (most recent call last):
-  File "D:\code\Python\inmo-test\common\utils.py", line 33, in __get_driver
-    config = cls.__get_driver_config(driver_type, is_reset)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\code\Python\inmo-test\common\utils.py", line 65, in __get_driver_config
-    raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
-ValueError: 未找到适用于 SXQ0223511006353 的配置
-
-2024-11-25 15:20:34,607 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 15:20:34,634 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 15:20:34,642 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 15:20:34,646 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 15:20:34,647 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 15:20:41,331 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 15:20:52,547 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 15:20:56,634 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 15:21:07,442 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 15:21:11,492 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 15:21:22,524 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 17:28:38,806 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 17:28:38,817 INFO [test_pressure.py(test_edit_inscription:25)] - 10001
-2024-11-25 17:28:39,994 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 19:17:06,580 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
-2024-11-25 19:17:06,657 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 19:17:08,738 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 19:17:08,743 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 19:17:08,747 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 19:17:08,747 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 19:17:15,518 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 19:17:17,007 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 19:17:18,168 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 19:17:18,996 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 19:17:20,212 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 19:17:21,728 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 19:17:21,820 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 19:17:23,088 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 19:17:33,516 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
-2024-11-25 19:17:33,518 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
-2024-11-25 19:17:33,641 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
-2024-11-25 19:17:34,525 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 19:17:37,106 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
-2024-11-25 19:17:37,495 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 19:17:37,842 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
-2024-11-25 19:17:43,418 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 19:17:44,286 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 19:17:44,942 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 19:17:45,812 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 19:17:47,049 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 19:17:47,835 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 19:17:48,951 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 19:17:53,563 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 19:17:54,397 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 19:17:55,040 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 19:17:55,904 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 19:17:57,124 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 19:17:57,998 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 19:17:58,727 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 19:17:59,893 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 19:18:07,285 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
-2024-11-25 19:18:07,285 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
-2024-11-25 19:18:07,393 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
-2024-11-25 19:18:07,603 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 19:18:10,901 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
-2024-11-25 19:18:11,240 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 19:18:11,574 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
-2024-11-25 19:59:25,307 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
-2024-11-25 19:59:26,870 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 19:59:28,417 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 19:59:28,422 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 19:59:28,426 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 19:59:28,426 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 19:59:33,379 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 19:59:34,244 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 19:59:35,472 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 19:59:36,315 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 19:59:37,516 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 19:59:38,298 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 19:59:38,975 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 19:59:40,209 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 19:59:46,488 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
-2024-11-25 19:59:46,488 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
-2024-11-25 19:59:46,605 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
-2024-11-25 19:59:46,818 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 19:59:50,704 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
-2024-11-25 19:59:51,020 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 19:59:51,338 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
-2024-11-25 19:59:55,705 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 19:59:56,540 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 19:59:57,704 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 19:59:58,552 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 20:00:00,467 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 20:00:00,540 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 20:00:01,530 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 20:00:05,974 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 20:00:06,813 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 20:00:07,971 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 20:00:08,806 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 20:00:10,010 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 20:00:10,896 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 20:00:11,792 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 20:00:21,015 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
-2024-11-25 20:00:21,036 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 20:00:21,059 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 20:00:21,064 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 20:00:21,070 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 20:00:21,071 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 20:00:25,808 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 20:00:26,644 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 20:00:27,337 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 20:00:28,166 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 20:00:29,396 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 20:00:30,900 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 20:00:31,011 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 20:00:32,197 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 20:00:38,266 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
-2024-11-25 20:00:38,266 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
-2024-11-25 20:00:38,370 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
-2024-11-25 20:00:38,567 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 20:00:46,106 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
-2024-11-25 20:00:46,405 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 20:00:46,759 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
-2024-11-25 20:00:51,241 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 20:00:52,075 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 20:00:53,242 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 20:00:54,079 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 20:00:55,301 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 20:00:56,198 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 20:00:57,192 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 20:01:01,672 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 20:01:02,531 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 20:01:03,163 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 20:01:04,031 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 20:01:05,225 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 20:01:06,633 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 20:01:06,711 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 20:01:07,929 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 20:01:14,011 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
-2024-11-25 20:01:14,011 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
-2024-11-25 20:01:14,132 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
-2024-11-25 20:01:14,546 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 20:01:25,609 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 20:01:25,916 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
-2024-11-25 20:01:48,314 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
-2024-11-25 20:01:48,345 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 20:01:48,364 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 20:01:48,368 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
-2024-11-25 20:01:48,373 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
-2024-11-25 20:01:48,373 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
-2024-11-25 20:01:53,239 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 20:01:55,954 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 20:01:57,122 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 20:01:58,318 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 20:01:59,558 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 20:02:00,415 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 20:02:01,348 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 20:02:05,834 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 20:02:06,677 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 20:02:07,926 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 20:02:08,776 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 20:02:09,993 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 20:02:10,780 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 20:02:11,914 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 20:02:13,556 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 20:02:19,627 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
-2024-11-25 20:02:19,627 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
-2024-11-25 20:02:19,747 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
-2024-11-25 20:02:20,620 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 20:02:25,831 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
-2024-11-25 20:02:26,011 INFO [product.py(click_wifi:29)] - 点击了wifi
-2024-11-25 20:02:27,494 INFO [connect_wifi.py(get_current_wifi_status:89)] - 当前连接的wifi是：inmoglass
-2024-11-25 20:02:29,787 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 20:02:30,125 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
-2024-11-25 20:02:34,641 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
-2024-11-25 20:02:35,484 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
-2024-11-25 20:02:36,122 INFO [user_agreement.py(agree:26)] - 点击同意并继续
-2024-11-25 20:02:37,012 INFO [tutorial_list.py(go2:25)] - 点击go2
-2024-11-25 20:02:38,234 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
-2024-11-25 20:02:38,995 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
-2024-11-25 20:02:39,735 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
-2024-11-25 20:02:41,784 INFO [product.py(click_bt:25)] - 点击了蓝牙
-2024-11-25 20:02:47,769 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
-2024-11-25 20:02:47,769 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
-2024-11-25 20:02:47,871 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
-2024-11-25 20:02:48,690 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
-2024-11-25 20:02:53,850 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
-2024-11-25 20:02:54,172 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
-2024-11-25 20:02:54,533 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-12-05 11:35:27,588 ERROR [utils.py(start_bluetooth_broadcast:147)] - 获取驱动失败
+2024-12-05 11:35:27,781 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-12-05 11:35:32,348 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-12-05 11:35:32,620 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:40:02,507 ERROR [server.py(is_device_connect:134)] - 请检查设备的连接后重试, 未连接的设备: ['SXQ0223511006353']
+2024-12-05 11:40:14,853 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
+2024-12-05 11:40:14,890 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
+2024-12-05 11:40:14,908 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
+2024-12-05 11:40:14,915 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
+2024-12-05 11:40:14,921 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
+2024-12-05 11:40:14,921 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
+2024-12-05 11:40:19,373 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:40:20,672 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:40:25,945 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:40:26,739 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-12-05 11:40:27,927 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-12-05 11:40:28,707 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-12-05 11:40:29,918 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-12-05 11:40:30,732 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-12-05 11:40:31,869 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-12-05 11:40:34,131 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-12-05 11:40:40,169 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-12-05 11:40:40,169 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
+2024-12-05 11:40:40,271 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
+2024-12-05 11:40:40,467 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-12-05 11:40:45,868 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-12-05 11:40:46,876 INFO [product.py(click_wifi:29)] - 点击了wifi
+2024-12-05 11:40:49,159 INFO [connect_wifi.py(get_current_wifi_status:89)] - 当前连接的wifi是：inmoglass
+2024-12-05 11:40:51,193 INFO [connect_wifi.py(connect_wifi:46)] - 当前已连接wifi：inmoglass
+2024-12-05 11:40:51,508 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:40:51,821 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-12-05 11:40:56,062 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:40:56,894 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-12-05 11:40:57,526 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-12-05 11:40:58,326 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-12-05 11:40:59,501 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-12-05 11:41:00,367 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-12-05 11:41:01,070 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-12-05 11:41:02,218 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-12-05 11:41:08,170 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-12-05 11:41:08,170 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
+2024-12-05 11:41:08,287 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
+2024-12-05 11:41:08,479 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-12-05 11:41:11,823 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-12-05 11:41:12,114 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:41:12,493 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-12-05 11:42:10,271 INFO [server.py(is_device_connect:137)] - 所有设备均已连接 UDID 列表: ['SXQ0223511006353', '28918606999183']
+2024-12-05 11:42:10,293 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
+2024-12-05 11:42:10,314 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
+2024-12-05 11:42:10,320 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4723 已启动并运行.
+2024-12-05 11:42:10,326 INFO [server.py(check_appium_status:69)] - Appium 服务器在端口 4724 已启动并运行.
+2024-12-05 11:42:10,327 INFO [server.py(are_all_running:56)] - 所有 Appium 服务器均已成功启动.
+2024-12-05 11:42:14,999 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:42:15,829 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-12-05 11:42:16,994 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-12-05 11:42:18,206 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-12-05 11:42:19,412 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-12-05 11:42:20,188 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-12-05 11:42:21,206 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:42:25,359 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:42:26,171 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-12-05 11:42:27,314 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-12-05 11:42:28,116 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-12-05 11:42:30,043 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-12-05 11:42:30,153 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-12-05 11:42:30,833 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-12-05 11:42:32,667 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-12-05 11:42:37,582 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-12-05 11:42:37,582 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
+2024-12-05 11:42:37,702 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
+2024-12-05 11:42:37,877 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-12-05 11:42:40,935 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-12-05 11:42:42,022 INFO [product.py(click_wifi:29)] - 点击了wifi
+2024-12-05 11:42:43,911 INFO [connect_wifi.py(get_current_wifi_status:89)] - 当前连接的wifi是：inmoglass
+2024-12-05 11:42:45,096 INFO [connect_wifi.py(connect_wifi:46)] - 当前已连接wifi：inmoglass
+2024-12-05 11:42:45,387 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:42:45,762 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-12-05 11:42:50,218 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:42:51,022 INFO [user_agreement.py(allow_info:18)] - 点击允许通知
+2024-12-05 11:42:51,619 INFO [user_agreement.py(agree:26)] - 点击同意并继续
+2024-12-05 11:42:52,388 INFO [tutorial_list.py(go2:25)] - 点击go2
+2024-12-05 11:42:53,560 INFO [tutorial_list.py(allow_location:29)] - 点击允许定位
+2024-12-05 11:42:54,314 INFO [tutorial_list.py(allow_find_device:37)] - 点击允许查找设备
+2024-12-05 11:42:55,020 INFO [tutorial_list.py(allow_read_app:45)] - 点击允许读取应用
+2024-12-05 11:42:56,135 INFO [product.py(click_bt:25)] - 点击了蓝牙
+2024-12-05 11:43:02,190 INFO [utils.py(__get_driver:38)] - 获取 DriverType.GLASS Driver 成功
+2024-12-05 11:43:02,191 INFO [utils.py(start_bluetooth_broadcast:149)] - 开始发起蓝牙广播
+2024-12-05 11:43:02,327 INFO [utils.py(start_bluetooth_broadcast:151)] - 成功发起蓝牙广播
+2024-12-05 11:43:02,581 INFO [connect_glasses.py(connect_glasses:18)] - 点击了连接按钮
+2024-12-05 11:43:08,155 INFO [product.py(bt_status:37)] - 获取了蓝牙连接状态:眼镜已连接APP
+2024-12-05 11:43:08,422 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 11:43:08,768 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.GLASS driver 成功
+2024-12-05 11:46:33,813 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:47:51,675 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:50:02,626 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:50:53,162 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:51:08,318 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:52:51,722 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:53:00,579 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 11:53:13,250 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 13:58:25,882 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:04:40,977 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:05:08,725 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:05:35,466 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:06:25,021 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:06:42,650 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:06:58,235 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:10:43,990 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:11:42,335 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:14:58,447 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:15:59,123 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:25:03,664 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:29:18,812 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:29:18,991 INFO [translate.py(click_translate_btn:23)] - 点击了“进入翻译”按钮
+2024-12-05 14:29:42,605 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 14:30:26,442 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:30:29,771 INFO [translate.py(click_translate_btn:23)] - 点击了“进入翻译”按钮
+2024-12-05 14:30:48,915 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 14:36:21,373 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:36:21,519 INFO [translate.py(click_translate_btn:23)] - 点击了“进入翻译”按钮
+2024-12-05 14:36:34,538 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2024-12-05 14:39:31,744 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
+2024-12-05 14:39:33,062 INFO [translate.py(click_translate_btn:23)] - 点击了“进入翻译”按钮
+2024-12-05 14:39:54,729 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
