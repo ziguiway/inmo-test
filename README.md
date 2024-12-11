@@ -1,99 +1,16 @@
 # INMO-TEST自动化平台
 
-## 一、环境的安装
-
-> [!NOTE]
->
-> 以下环境，如果已经安装过，可以自行跳过
->
-> ✅ nvm : 1.1.12
->
-> ✅ nodejs : 20.18.0
->
-> ✅ appium : 2.12.1
->
-> ✅ Android SDK : 24.4.1
->
-> ✅ uiautomator2 : 2.45.1
->
-> ✅ Java JDK : 17
->
-> ✅ Python：3.12
->
-> ✅ git
-
-### 1.安装[nvm](https://github.com/coreybutler/nvm-windows/releases)和nodejs
-
-请参考[nvm安装和使用保姆级教程（详细）-CSDN博客](https://blog.csdn.net/weixin_38383877/article/details/143077797) 
-
-### 2.安装appium
-
-使用 `npm` 在全局范围内安装 Appium,在命令行输入`npm i -g appium@2.6.0`，耗时可能比较久，请耐心等待安装完成 ⏳
-
-```shell
-npm i -g appium@2.6.0
-```
-
-### 4.安装Android SDK
-
-请参考[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050) 
-
-### 5.安装Java JDK
-
-请参考[超详细JDK下载与安装步骤（保姆级，含安装包）_jdk下载与安装教程-CSDN博客](https://blog.csdn.net/VA_AV/article/details/138508891) 
-
-### 6.安装UiAutomator2 驱动
-
-> [!IMPORTANT]
->
-> 这一步十分重要，我在搭建时候，被折磨了很久 :sob: ，要是不指定版本，会有很多的兼容问题
-
-命令行输入`appium driver install uiautomator2@3.9.0`，回车，等待安装完成。
-
-```shell
-appium driver install uiautomator2@3.9.0
-```
-
-### 7.安装python
-
-请参考[Python安装教程，超详细！！！-CSDN博客](https://blog.csdn.net/maiya_yayaya/article/details/131450517) 
-
-### 8.安装git
-
-请参考[windows安装git（全网最详细，保姆教程）-CSDN博客](https://blog.csdn.net/weixin_42242910/article/details/136297201) 
-
-## 二、快速开始 
-
-### 1.将代码clone到本地并安装行所需的库
-
-```shell
-git clone https://github.com/ziguiway/inmo-test.git
-cd inmo-test
-pip install -r requirements.txt
-```
-
-### 2.修改udid 
-
-> [!TIP]
->
-> 使用`adb devices`查看udid
-
-- 把config.yaml文件中为udid改成你设备对应的udid
-- 把common/type.py文件中为DriverType改成你设备对应的udid
-
-### 3.执行测试用例
-
-```shell
-python main.py
-```
-
-## 三、项目的介绍 
+## 一、项目的介绍 
 
 ### 1.PO模式
 
 本项目采用POM的设计思想进行设计。PO模式是一种自动化测试设计模式，将页面定位和业务操作分开，也就是把对象定位和测试脚本分开，从而提供可维护性。PO模式可以把一个页面分为三层，对象库层、操作层、业务层。
 
-### 2.目录结构 
+### 2.数据驱动
+
+数据驱动（Data-Driven Testing, DDT） 是一种自动化测试方法，通过将测试数据与测试逻辑分开，使得相同的测试用例可以使用不同的数据进行多次执行。其核心思想是将测试数据从测试脚本中提取出来，并将数据存储在外部（如 CSV、Excel、数据库等），通过读取这些数据来执行相同的测试场景，以验证不同数据输入下系统的表现和稳定性。
+
+### 3.目录结构 
 
 ```
 |-- inmo-test
@@ -222,6 +139,95 @@ appium --allow-insecure=adb_shell -p {port}
 
 ``` shell
 pytest
+```
+
+## 
+
+## 二、环境的安装
+
+> [!NOTE]
+>
+> 以下环境，如果已经安装过，可以自行跳过
+>
+> ✅ nvm : 1.1.12
+>
+> ✅ nodejs : 20.18.0
+>
+> ✅ appium : 2.12.1
+>
+> ✅ Android SDK : 24.4.1
+>
+> ✅ uiautomator2 : 2.45.1
+>
+> ✅ Java JDK : 17
+>
+> ✅ Python：3.12
+>
+> ✅ git
+
+### 1.安装[nvm](https://github.com/coreybutler/nvm-windows/releases)和nodejs
+
+请参考[nvm安装和使用保姆级教程（详细）-CSDN博客](https://blog.csdn.net/weixin_38383877/article/details/143077797) 
+
+### 2.安装appium
+
+使用 `npm` 在全局范围内安装 Appium,在命令行输入`npm i -g appium@2.6.0`，耗时可能比较久，请耐心等待安装完成 ⏳
+
+```shell
+npm i -g appium@2.6.0
+```
+
+### 4.安装Android SDK
+
+请参考[Android SDK安装教程（超详细），从零基础入门到实战，从看这篇开始-CSDN博客](https://blog.csdn.net/Z987421/article/details/131423050) 
+
+### 5.安装Java JDK
+
+请参考[超详细JDK下载与安装步骤（保姆级，含安装包）_jdk下载与安装教程-CSDN博客](https://blog.csdn.net/VA_AV/article/details/138508891) 
+
+### 6.安装UiAutomator2 驱动
+
+> [!IMPORTANT]
+>
+> 这一步十分重要，我在搭建时候，被折磨了很久 :sob: ，要是不指定版本，会有很多的兼容问题
+
+命令行输入`appium driver install uiautomator2@3.9.0`，回车，等待安装完成。
+
+```shell
+appium driver install uiautomator2@3.9.0
+```
+
+### 7.安装python
+
+请参考[Python安装教程，超详细！！！-CSDN博客](https://blog.csdn.net/maiya_yayaya/article/details/131450517) 
+
+### 8.安装git
+
+请参考[windows安装git（全网最详细，保姆教程）-CSDN博客](https://blog.csdn.net/weixin_42242910/article/details/136297201) 
+
+## 三、快速开始 
+
+### 1.将代码clone到本地并安装行所需的库
+
+```shell
+git clone https://github.com/ziguiway/inmo-test.git
+cd inmo-test
+pip install -r requirements.txt
+```
+
+### 2.修改udid 
+
+> [!TIP]
+>
+> 使用`adb devices`查看udid
+
+- 把config.yaml文件中为udid改成你设备对应的udid
+- 把common/type.py文件中为DriverType改成你设备对应的udid
+
+### 3.执行测试用例
+
+```shell
+python main.py
 ```
 
 ## 四、可能遇到的问题 
