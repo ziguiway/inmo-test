@@ -139,6 +139,18 @@ def test_example(self, test_data):
 
 测试数据存储在 `data/` 目录中，与测试代码完全分离，便于维护和管理。
 
+## 基础页面类优化
+
+基础页面类 (`base/base_page.py`) 已经优化，提供了更多实用功能：
+
+- 增强的元素查找和等待机制
+- 改进的错误处理和日志记录
+- 自动截图功能，便于调试
+- 平台特定的交互方法
+- 可配置的超时和轮询参数
+
+有关详细信息，请参见 BASE_PAGE_OPTIMIZATION.md 文件。
+
 ```python
 from common.type import DriverType
 from common.utils import DriverUtils, GlassesUtils
