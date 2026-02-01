@@ -201,6 +201,47 @@ class Test:
 
 有关详细信息，请参见 BASE_PAGE_OPTIMIZATION.md 文件。
 
+## 驱动管理与异常处理优化
+
+驱动管理模块 (`common/utils.py`) 经过了全面优化，增强了系统的稳定性和可靠性：
+
+### 主要优化内容
+
+- **驱动健康检查**：实时监测驱动状态，自动重建不健康的驱动实例
+- **重试机制**：在驱动创建失败时自动重试，最多重试3次
+- **资源管理**：改进驱动生命周期管理，确保正确释放资源
+- **异常处理**：增强异常捕获和处理机制，提供更详细的错误信息
+- **超时控制**：添加请求和操作超时设置，防止长时间挂起
+
+### 核心特性
+
+- **自动健康检查**：获取驱动时自动检查其健康状态
+- **智能重连**：在连接失败时自动尝试重连
+- **运行时间监控**：可查询驱动的运行时间
+- **批量管理**：支持批量清理所有驱动
+- **强制重建**：提供强制重建驱动的接口
+
+### 使用示例
+
+```python
+from common.utils import DriverUtils
+from common.type import DriverType
+
+# 正常获取驱动（会自动进行健康检查和重试）
+driver = DriverUtils.get_driver(DriverType.ANDROID)
+
+# 强制重建驱动（如果遇到问题）
+driver = DriverUtils.force_recreate_driver(DriverType.ANDROID)
+
+# 获取驱动运行时间
+uptime = DriverUtils.get_driver_uptime(DriverType.ANDROID)
+
+# 清理所有驱动
+DriverUtils.quit_all_drivers()
+```
+
+有关详细信息，请参见 DRIVER_MANAGEMENT_OPTIMIZATION.md 文件。
+
 ### 4.怎么执行测试用例？ 
 
 #### 方式一（推荐）：运行main.py

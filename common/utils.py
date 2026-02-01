@@ -9,7 +9,7 @@ import yaml
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from colorama import init, Fore, Style
-from selenium.common import TimeoutException
+from selenium.common import TimeoutException, WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -22,24 +22,84 @@ logger = LoggerSingleton().get_logger()
 
 class DriverUtils:
     __drivers = {dt: None for dt in DriverType}
+    __driver_creation_times = {dt: None for dt in DriverType}  # 记录驱动创建时间
+    __max_retries = 3  # 最大重试次数
+    __retry_delay = 2  # 重试间隔（秒）
 
     @classmethod
     def __handle_exception(cls, e, context):
-        logger.error(f"{context}失败: {traceback.format_exc()}")
+        logger.error(f"{context}失败: {str(e)}\n{traceback.format_exc()}")
+        return None
+
+    @classmethod
+    def __check_driver_health(cls, driver_type):
+        """检查驱动是否健康"""
+        driver = cls.__drivers[driver_type]
+        if driver is None:
+            return False
+        
+        try:
+            # 尝试执行一个简单的操作来检查驱动状态
+            driver.current_activity()
+            return True
+        except WebDriverException:
+            logger.warning(f"{driver_type} 驱动连接异常，需要重建")
+            return False
+
+    @classmethod
+    def __create_driver_with_retry(cls, driver_type, config):
+        """带重试机制的驱动创建"""
+        last_exception = None
+        
+        for attempt in range(cls.__max_retries):
+            try:
+                logger.info(f"尝试创建 {driver_type} 驱动 (尝试 {attempt + 1}/{cls.__max_retries})")
+                
+                appium_server_url = config.get('serverUrl')
+                options = UiAutomator2Options().load_capabilities(config)
+                driver = webdriver.Remote(appium_server_url, options=options)
+                
+                # 设置隐式等待时间
+                implicit_wait = config.get('implicitWait', 10)
+                driver.implicitly_wait(implicit_wait)
+                
+                logger.info(f"获取 {driver_type} Driver 成功")
+                return driver
+                
+            except Exception as e:
+                last_exception = e
+                logger.warning(f"创建 {driver_type} 驱动失败 (尝试 {attempt + 1}/{cls.__max_retries}): {str(e)}")
+                
+                if attempt < cls.__max_retries - 1:  # 不是最后一次尝试
+                    time.sleep(cls.__retry_delay)
+        
+        # 所有重试都失败了
+        cls.__handle_exception(last_exception, f"初始化 {driver_type} 驱动程序，已重试 {cls.__max_retries} 次")
         return None
 
     @classmethod
     def __get_driver(cls, driver_type, is_reset):
+        # 检查现有驱动是否健康
+        if cls.__drivers[driver_type] is not None:
+            if not cls.__check_driver_health(driver_type):
+                logger.info(f"现有 {driver_type} 驱动不健康，准备重建")
+                cls.__quit_driver(driver_type)  # 清理不健康的驱动
+
         if cls.__drivers[driver_type] is None:
             try:
                 config = cls.__get_driver_config(driver_type, is_reset)
-                appium_server_url = config.get('serverUrl')
-                options = UiAutomator2Options().load_capabilities(config)
-                cls.__drivers[driver_type] = webdriver.Remote(appium_server_url, options=options)
-                # cls.__drivers[driver_type].implicitly_wait(30)
-                logger.info(f"获取 {driver_type} Driver 成功")
+                driver = cls.__create_driver_with_retry(driver_type, config)
+                
+                if driver is not None:
+                    cls.__drivers[driver_type] = driver
+                    cls.__driver_creation_times[driver_type] = time.time()
+                else:
+                    logger.error(f"无法创建 {driver_type} 驱动，所有重试均已失败")
+                    return None
+                    
             except Exception as e:
-                cls.__handle_exception(e, f"初始化 {driver_type} 驱动程序")
+                cls.__handle_exception(e, f"获取 {driver_type} 驱动时发生异常")
+                return None
 
         return cls.__drivers[driver_type]
 
@@ -47,9 +107,14 @@ class DriverUtils:
     def __quit_driver(cls, driver_type):
         driver = cls.__drivers[driver_type]
         if driver:
-            driver.quit()
-            logger.info(f"退出 {driver_type} driver 成功")
-            cls.__drivers[driver_type] = None
+            try:
+                driver.quit()
+                logger.info(f"退出 {driver_type} driver 成功")
+            except Exception as e:
+                logger.warning(f"退出 {driver_type} driver 时发生异常: {str(e)}")
+            finally:
+                cls.__drivers[driver_type] = None
+                cls.__driver_creation_times[driver_type] = None
 
     @classmethod
     def __get_driver_config(cls, driver_type, is_reset):
@@ -64,6 +129,9 @@ class DriverUtils:
         for config in config_list:
             if config.get('udid') == udid:
                 config['noReset'] = not is_reset
+                # 设置默认的隐式等待时间
+                if 'implicitWait' not in config:
+                    config['implicitWait'] = 10
                 return config
         raise ValueError(f"未找到适用于 {driver_type.value} 的配置")
 
@@ -75,6 +143,26 @@ class DriverUtils:
     def quit_driver(cls, driver_type):
         cls.__quit_driver(driver_type)
 
+    @classmethod
+    def quit_all_drivers(cls):
+        """退出所有驱动"""
+        for driver_type in DriverType:
+            cls.quit_driver(driver_type)
+
+    @classmethod
+    def get_driver_uptime(cls, driver_type):
+        """获取驱动运行时间（秒）"""
+        creation_time = cls.__driver_creation_times[driver_type]
+        if creation_time is None:
+            return 0
+        return time.time() - creation_time
+
+    @classmethod
+    def force_recreate_driver(cls, driver_type, is_reset=True):
+        """强制重建驱动"""
+        logger.info(f"强制重建 {driver_type} 驱动")
+        cls.__quit_driver(driver_type)
+        return cls.get_driver(driver_type, is_reset)
 
 class TimeUtils:
     @staticmethod
