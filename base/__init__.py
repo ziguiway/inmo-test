@@ -1,3 +1,2 @@
-from config import LoggerSingleton
-
-logger = LoggerSingleton.get_instance().get_logger()
+# 仅导入LoggerSingleton，避免在模块导入时初始化日志系统
+from common.logger_utils import LoggerSingleton

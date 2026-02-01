@@ -1,8 +1,7 @@
-import logging
-
 from selenium.webdriver.common.by import By
 
 from base.base_page import BasePageAndroid
+from common.logger_utils import LoggerSingleton
 
 
 class TutorialListPage(BasePageAndroid):
@@ -22,28 +21,28 @@ class TutorialListPage(BasePageAndroid):
 
     def go2(self):
         self.base_click(self.__loc_go2)
-        logging.info("点击go2")
+        self.logger.info("点击go2")
 
     def allow_location(self):
         self.base_click(self.__loc_allow_location)
-        logging.info("点击允许定位")
+        self.logger.info("点击允许定位")
 
     def deny_location(self):
         self.base_click(self.__loc_deny_location)
-        logging.info("点击拒绝定位")
+        self.logger.info("点击拒绝定位")
 
     def allow_find_device(self):
         self.base_click(self.__loc_allow_find_device)
-        logging.info("点击允许查找设备")
+        self.logger.info("点击允许查找设备")
 
     def deny_find_device(self):
         self.base_click(self.__loc_deny_find_device)
-        logging.info("点击拒绝查找设备")
+        self.logger.info("点击拒绝查找设备")
 
     def allow_read_app(self):
         self.base_click(self.__loc_allow_read_app)
-        logging.info("点击允许读取应用")
+        self.logger.info("点击允许读取应用")
 
     def deny_read_app(self):
         self.base_click(self.__loc_deny_read_app)
-        logging.info("点击拒绝读取应用")
+        self.logger.info("点击拒绝读取应用")

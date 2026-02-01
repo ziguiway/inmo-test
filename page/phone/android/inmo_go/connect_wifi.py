@@ -1,8 +1,7 @@
-import logging
-
 from appium.webdriver.common.appiumby import AppiumBy
 
 from base.base_page import BasePageAndroid
+from common.logger_utils import LoggerSingleton
 from common.type import DriverType, WifiStatusType
 from common.utils import ElementUtils, DriverUtils
 
@@ -40,10 +39,10 @@ class ConnectWifiPage(BasePageAndroid):
         status, current_wifi_name = self.get_current_wifi_status()
 
         if wifi_name not in [element.text for element in self.get_wifi_list()]:
-            logging.info(f"找不到该wifi: {wifi_name}")
+            self.logger.info(f"找不到该wifi: {wifi_name}")
             return
         if status == WifiStatusType.CONNECTED and current_wifi_name == wifi_name:
-            logging.info(f"当前已连接wifi：{wifi_name}")
+            self.logger.info(f"当前已连接wifi：{wifi_name}")
             return
         for wifi in self.get_wifi_list():
             if wifi_name == wifi.text:
@@ -51,10 +50,10 @@ class ConnectWifiPage(BasePageAndroid):
                 break
         self.base_input(self.loc_password, wifi_password)
         self.base_click(self.loc_connect_btn)
-        logging.info(f"开始连接wifi:{wifi_name}")
+        self.logger.info(f"开始连接wifi:{wifi_name}")
         wifi_status = self.get_current_wifi_status()
         if wifi_status == WifiStatusType.CONNECTED:
-            logging.info(f"wifi:{wifi_name}已连接")
+            self.logger.info(f"wifi:{wifi_name}已连接")
 
     def custom_net_config(self, wifi_name, wifi_password):
         """
@@ -86,10 +85,10 @@ class ConnectWifiPage(BasePageAndroid):
         is_connected = ElementUtils.is_el_exist_by_text(DriverType.ANDROID, WifiStatusType.CONNECTED.value, timeout=5)
         if is_connected:
             current_wifi = self.get_wifi_list()[0]
-            logging.info(f"当前连接的wifi是：{current_wifi.text}")
+            self.logger.info(f"当前连接的wifi是：{current_wifi.text}")
             return WifiStatusType.CONNECTED, current_wifi.text
         else:
-            logging.info("当前未连接wifi")
+            self.logger.info("当前未连接wifi")
             return WifiStatusType.UNCONNECTED, None
 
 

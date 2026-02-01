@@ -1,5 +1,3 @@
-import logging
-
 from appium.webdriver.common.appiumby import AppiumBy
 
 from base.base_page import BasePageAndroid

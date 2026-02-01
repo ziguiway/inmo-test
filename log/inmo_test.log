@@ -243,3 +243,5 @@ UnknownError: An unknown server-side error occurred while processing the command
 2024-12-05 14:39:31,744 INFO [utils.py(__get_driver:38)] - 获取 DriverType.ANDROID Driver 成功
 2024-12-05 14:39:33,062 INFO [translate.py(click_translate_btn:23)] - 点击了“进入翻译”按钮
 2024-12-05 14:39:54,729 INFO [utils.py(__quit_driver:48)] - 退出 DriverType.ANDROID driver 成功
+2026-02-01 12:33:24,156 INFO [<string>(<module>:1)] - 测试重构后的日志系统
+2026-02-01 12:36:41,620 INFO [<string>(<module>:1)] - 测试重构后的配置和日志系统

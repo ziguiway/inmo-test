@@ -1,8 +1,7 @@
-import logging
-
 from selenium.webdriver.common.by import By
 
 from base.base_page import BasePageAndroid
+from common.logger_utils import LoggerSingleton
 
 
 class ProductPage(BasePageAndroid):
@@ -22,24 +21,24 @@ class ProductPage(BasePageAndroid):
 
     def click_bt(self):
         self.base_click(self.__loc_bt)
-        logging.info("点击了蓝牙")
+        self.logger.info("点击了蓝牙")
 
     def click_wifi(self):
         self.base_click(self.__loc_wifi)
-        logging.info("点击了wifi")
+        self.logger.info("点击了wifi")
 
     def adjust_brightness(self,percent):
         self.base_move_seekbar(self.__loc_brightness,percent)
-        logging.info(f"调节亮度到:{percent}%")
+        self.logger.info(f"调节亮度到:{percent}%")
 
     def bt_status(self):
         text = self.base_get_text(self.__loc_bt)
-        logging.info(f"获取了蓝牙连接状态:{text}")
+        self.logger.info(f"获取了蓝牙连接状态:{text}")
         return text
 
     def wifi_status(self):
         text = self.base_get_text(self.__loc_wifi)
-        logging.info(f"获取了wifi连接状态:{text}")
+        self.logger.info(f"获取了wifi连接状态:{text}")
         return text
 
     def to_translate_page(self):

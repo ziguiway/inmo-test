@@ -1,9 +1,9 @@
-import logging
 import time
 
 from selenium.webdriver.common.by import By
 
 from base.base_page import BasePageAndroid
+from common.logger_utils import LoggerSingleton
 
 
 class ConnectGlassesPage(BasePageAndroid):
@@ -15,7 +15,7 @@ class ConnectGlassesPage(BasePageAndroid):
     def connect_glasses(self):
         glasses_list = self.base_find_elements(self.__loc_glasses_list)
         glasses_list[0].click()
-        logging.info("点击了连接按钮")
+        self.logger.info("点击了连接按钮")
 
 
 
