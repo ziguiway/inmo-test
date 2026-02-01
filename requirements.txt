@@ -6,3 +6,5 @@ pytest-allure-adaptor>=1.7.10
 PyYAML>=6.0.2
 requests>=2.32.3
 selenium>=4.26.1
+pandas>=2.0.0
+openpyxl>=3.0.0

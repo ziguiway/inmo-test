@@ -107,6 +107,36 @@ class ConnectGlassesPage(BasePageAndroid):
 
 有关详细信息，请参见 TEST_REPORT_GUIDE.md 文件。
 
+## 数据驱动测试
+
+本项目支持数据驱动测试，允许从外部数据源（CSV、JSON、YAML等）读取测试数据，实现测试逻辑与测试数据的分离。
+
+### 使用数据驱动测试
+
+1. 创建测试数据文件（CSV、JSON或YAML格式）
+2. 使用 DataProvider 类加载数据
+3. 在测试中使用 @pytest.mark.parametrize 装饰器
+
+示例：
+```python
+from common.data_provider import DataProvider
+
+@pytest.mark.parametrize("test_data", 
+    DataProvider.load_from_json("test_data.json"))
+def test_example(self, test_data):
+    # 测试逻辑
+    pass
+```
+
+### 数据源支持
+
+- CSV文件：表格形式的测试数据
+- JSON文件：结构化测试数据
+- YAML文件：配置式测试数据
+- Excel文件：复杂测试数据（需要安装pandas）
+
+有关详细信息，请参见 DATA_DRIVEN_TEST_GUIDE.md 文件。
+
 ```python
 from common.type import DriverType
 from common.utils import DriverUtils, GlassesUtils
