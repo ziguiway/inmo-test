@@ -1,59 +1,50 @@
 # INMO-TEST自动化平台
 
-## 一、项目的介绍 
+## 项目简介
 
-### 1.PO模式
+INMO-TEST是一个基于Appium和Selenium的移动端自动化测试框架，专门用于智能眼镜产品的端到端测试。该框架采用Page Object模式设计，具有良好的可维护性和扩展性。
 
-本项目采用POM的设计思想进行设计。PO模式是一种自动化测试设计模式，将页面定位和业务操作分开，也就是把对象定位和测试脚本分开，从而提供可维护性。PO模式可以把一个页面分为三层，对象库层、操作层、业务层。
+### 设计模式
 
-### 2.数据驱动
+#### PO模式 (Page Object)
 
-数据驱动（Data-Driven Testing, DDT） 是一种自动化测试方法，通过将测试数据与测试逻辑分开，使得相同的测试用例可以使用不同的数据进行多次执行。其核心思想是将测试数据从测试脚本中提取出来，并将数据存储在外部（如 CSV、Excel、数据库等），通过读取这些数据来执行相同的测试场景，以验证不同数据输入下系统的表现和稳定性。
+本项目采用POM（Page Object Model）的设计思想进行设计。PO模式是一种自动化测试设计模式，将页面定位和业务操作分开，把对象定位和测试脚本分离，从而提高代码的可维护性。PO模式将一个页面分为三层：对象库层、操作层、业务层。
 
-### 3. 核心流程
+#### 数据驱动
+
+数据驱动（Data-Driven Testing, DDT）是一种自动化测试方法，通过将测试数据与测试逻辑分离，使相同的测试用例可以使用不同的数据进行多次执行。其核心思想是将测试数据从测试脚本中提取出来，并将数据存储在外部（如 CSV、Excel、数据库等），通过读取这些数据来执行相同的测试场景，以验证不同数据输入下系统的表现和稳定性。
+
+### 架构流程
 
 <img src=".\img\20260131-174202.jpg" alt="核心流程" style="zoom:67%;" />
 
-### 3.目录结构 
+### 目录结构
 
 ```
 |-- inmo-test
-    |-- base
-    |-- common
-    |-- log
-    |-- page
-    |-- report
-    |-- scripts
-    |-- .gitignore
-    |-- config.py
-    |-- config.yaml
-    |-- main.py
-    |-- pytest.ini
-    |-- requirements.txt
-    |-- server.py
+    |-- base/           # 基类，封装页面公共方法
+    |-- common/         # 存放工具类、枚举类
+    |-- data/           # 存放测试数据文件
+    |-- log/            # 存放日志信息
+    |-- page/           # 操作层，封装页面元素操作
+    |-- report/         # 存放测试报告
+    |-- scripts/        # 业务层，组合操作完成业务功能
+    |-- .gitignore      # Git忽略配置
+    |-- config.py       # 项目配置
+    |-- config.yaml     # Appium服务配置
+    |-- main.py         # 项目主入口
+    |-- pytest.ini      # Pytest配置文件
+    |-- requirements.txt # 项目依赖库
+    |-- server.py       # 项目服务
 ```
 
-- base：基类，封装page 页面一些公共的方法
-- common：存放工具类，枚举类
-- log：存放日志信息
-- page：操作层，封装对元素的操作，一个页面封装成一个对象
-- report：存放测试报告
-- scripts：业务层，将一个或多个操作组合起来完成一个业务功能
-- .gitignore：告诉 Git 哪些文件或目录应该被忽略，不纳入版本控制
-- config.py：存放项目的配置
-- config.yaml：存放appium服务的配置
-- main.py：项目的主入口
-- pytest.ini：pytest 的配置文件
-- requirements.txt：项目运行所需的库
-- server.py：提供项目所需的服务
+### 测试用例开发
 
-### 3.在哪里写测试用例？ 
+在scripts包下找到对应的项目，编写测试用例即可。
 
-在scripts包下找到对应的项目，编写测试用例即可
+**示例：使用inmo-go连接Go2**
 
-例如：使用inmo-go连接Go2
-
-首先，在page包中封装所需的页面元素和方法
+首先，在page包中封装所需的页面元素和方法：
 
 ```python
 import time
@@ -75,13 +66,21 @@ class ConnectGlassesPage(BasePageAndroid):
         self.logger.info("点击了连接按钮")
 ```
 
-然后，在scripts包中编写具体的测试用例
+然后，在scripts包中编写具体的测试用例。
 
 ## 测试报告
 
 本项目集成了Allure测试报告功能，提供更丰富的测试结果展示和分析能力。
 
-### 生成测试报告
+### 功能特性
+
+- 丰富的测试信息（标题、描述、标签、步骤详情）
+- 测试执行时间统计和结果分布
+- 按状态、标签分类的测试过滤
+- 失败测试的详细信息和堆栈跟踪
+- 自动化截图展示
+
+### 使用方法
 
 1. 运行测试
    ```bash
@@ -98,20 +97,20 @@ class ConnectGlassesPage(BasePageAndroid):
    allure serve allure-results
    ```
 
-### Allure报告特性
-
-- 丰富的测试信息（标题、描述、标签、步骤详情）
-- 测试执行时间统计和结果分布
-- 按状态、标签分类的测试过滤
-- 失败测试的详细信息和堆栈跟踪
-
 有关详细信息，请参见 TEST_REPORT_GUIDE.md 文件。
 
 ## 数据驱动测试
 
 本项目支持数据驱动测试，允许从外部数据源（CSV、JSON、YAML等）读取测试数据，实现测试逻辑与测试数据的分离。
 
-### 使用数据驱动测试
+### 特性
+
+- 支持多种数据格式（JSON、CSV、YAML、Excel）
+- 数据与代码完全分离，便于维护
+- 统一的数据加载接口
+- 易于扩展新的数据源类型
+
+### 使用方法
 
 1. 创建测试数据文件（CSV、JSON或YAML格式）
 2. 使用 DataProvider 类加载数据
@@ -135,21 +134,33 @@ def test_example(self, test_data):
 - YAML文件：配置式测试数据
 - Excel文件：复杂测试数据（需要安装pandas）
 
-有关详细信息，请参见 DATA_DRIVEN_TEST_GUIDE.md 文件。
-
 测试数据存储在 `data/` 目录中，与测试代码完全分离，便于维护和管理。
+
+有关详细信息，请参见 DATA_DRIVEN_TEST_GUIDE.md 文件。
 
 ## 基础页面类优化
 
-基础页面类 (`base/base_page.py`) 已经优化，提供了更多实用功能：
+基础页面类 (`base/base_page.py`) 已经进行了全面优化，提供了更多实用功能和更好的稳定性：
 
-- 增强的元素查找和等待机制
-- 改进的错误处理和日志记录
-- 自动截图功能，便于调试
-- 平台特定的交互方法
-- 可配置的超时和轮询参数
+### 主要优化内容
 
-有关详细信息，请参见 BASE_PAGE_OPTIMIZATION.md 文件。
+- **增强的元素查找机制**：使用Expected Conditions提高元素定位可靠性
+- **改进的错误处理**：完善的异常捕获和日志记录机制
+- **自动截图功能**：测试失败时自动保存截图，便于调试分析
+- **可配置参数**：支持自定义超时时间和轮询频率
+- **平台特定方法**：针对Android和iOS平台的专属功能
+- **等待策略优化**：智能等待机制，提升测试稳定性
+- **滚动与交互**：增强的页面滚动和元素交互功能
+
+### 核心特性
+
+- **统一的日志记录**：集成LoggerSingleton，提供一致的日志输出
+- **智能元素等待**：支持显式等待和隐式等待的灵活配置
+- **批量操作支持**：提供单个和多个元素查找的统一接口
+- **异常处理机制**：完善的异常捕获和错误报告
+- **跨平台兼容**：支持Android和iOS双平台测试
+
+### 使用示例
 
 ```python
 from common.type import DriverType
@@ -188,58 +199,56 @@ class Test:
         assert bt_status in "眼镜已连接APP"
 ```
 
+有关详细信息，请参见 BASE_PAGE_OPTIMIZATION.md 文件。
+
 ### 4.怎么执行测试用例？ 
 
 #### 方式一（推荐）：运行main.py
 
-打开powershell,进入项目的根路径,输入`python main.py`，回车
+打开PowerShell，进入项目的根路径，输入`python main.py`，回车
 
-``` python
+```python
 python main.py
 ```
 
-这种方式会自动的启动appium服务，无需手动启动
+这种方式会自动启动appium服务，无需手动启动。
 
-#### 方式二：手动
+#### 方式二：手动执行
 
-1.打开powershell
+1. 手动启动appium服务
 
-``` shell
+```shell
 appium --allow-insecure=adb_shell -p {port}
 ```
 
 > [!tip]
->
-> 把 {port} 改成你要启动的端口，要与config.yaml文件一致
+> 将 {port} 改成你要启动的端口，要与config.yaml文件一致
 
-2.在项目的根路径下,输入`pytest`，回车
+2. 在项目根路径下运行pytest
 
-``` shell
+```shell
 pytest
 ```
 
-## 
-
-## 二、环境的安装
+## 环境安装
 
 > [!NOTE]
->
 > 以下环境，如果已经安装过，可以自行跳过
->
+> 
 > ✅ nvm : 1.1.12
->
+> 
 > ✅ nodejs : 20.18.0
->
+> 
 > ✅ appium : 2.12.1
->
+> 
 > ✅ Android SDK : 24.4.1
->
+> 
 > ✅ uiautomator2 : 2.45.1
->
+> 
 > ✅ Java JDK : 17
->
+> 
 > ✅ Python：3.12
->
+> 
 > ✅ git
 
 ### 1.安装[nvm](https://github.com/coreybutler/nvm-windows/releases)和nodejs
@@ -284,7 +293,7 @@ appium driver install uiautomator2@3.9.0
 
 ## 三、快速开始 
 
-### 1.将代码clone到本地并安装行所需的库
+### 1. 代码克隆与依赖安装
 
 ```shell
 git clone https://github.com/ziguiway/inmo-test.git
@@ -292,16 +301,15 @@ cd inmo-test
 pip install -r requirements.txt
 ```
 
-### 2.修改udid 
+### 2. 设备配置
 
 > [!TIP]
->
 > 使用`adb devices`查看udid
 
-- 把config.yaml文件中为udid改成你设备对应的udid
-- 把common/type.py文件中为DriverType改成你设备对应的udid
+- 修改config.yaml文件中的udid为你设备对应的udid
+- 修改common/type.py文件中DriverType为你的设备对应的udid
 
-### 3.执行测试用例
+### 3. 执行测试用例
 
 ```shell
 python main.py
