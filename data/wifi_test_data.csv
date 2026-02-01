@@ -1,0 +1,6 @@
+wifi_name,password,description,expected_result
+inmoglass,20210108,公司主WiFi,连接成功
+inmoglass_backup,20210108,公司备用WiFi,连接成功
+TestNetwork,Test123456,测试网络,连接成功
+GuestNetwork,guest123,访客网络,连接成功
+WeakPassword,123,弱密码网络,连接失败

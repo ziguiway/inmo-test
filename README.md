@@ -137,6 +137,8 @@ def test_example(self, test_data):
 
 有关详细信息，请参见 DATA_DRIVEN_TEST_GUIDE.md 文件。
 
+测试数据存储在 `data/` 目录中，与测试代码完全分离，便于维护和管理。
+
 ```python
 from common.type import DriverType
 from common.utils import DriverUtils, GlassesUtils

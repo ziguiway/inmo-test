@@ -1,0 +1,26 @@
+[
+  {
+    "test_case_id": "GLASS_001",
+    "test_case": "眼镜首次连接测试",
+    "steps": ["同意协议", "选择GO2", "连接眼镜"],
+    "expected_result": "连接成功",
+    "priority": "high",
+    "description": "验证眼镜首次连接功能"
+  },
+  {
+    "test_case_id": "GLASS_002",
+    "test_case": "眼镜重连测试",
+    "steps": ["断开连接", "重新搜索", "连接眼镜"],
+    "expected_result": "重连成功",
+    "priority": "medium",
+    "description": "验证眼镜断线重连功能"
+  },
+  {
+    "test_case_id": "GLASS_003",
+    "test_case": "眼镜配对测试",
+    "steps": ["进入配对模式", "连接眼镜"],
+    "expected_result": "配对成功",
+    "priority": "low",
+    "description": "验证眼镜配对功能"
+  }
+]

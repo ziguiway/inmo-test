@@ -63,20 +63,8 @@ class TestDataDriven:
 
     def test_connect_wifi_with_csv_data(self):
         """使用CSV文件中的数据进行WiFi连接测试"""
-        # 创建示例CSV数据文件
-        csv_file = "wifi_test_data.csv"
-        test_data = [
-            {"wifi_name": "inmoglass", "password": "20210108", "description": "公司主WiFi"},
-            {"wifi_name": "inmoglass_backup", "password": "20210108", "description": "公司备用WiFi"},
-            {"wifi_name": "TestNetwork", "password": "Test123456", "description": "测试网络"}
-        ]
-        
-        # 写入CSV文件
-        with open(csv_file, 'w', newline='', encoding='utf-8') as file:
-            fieldnames = ["wifi_name", "password", "description"]
-            writer = csv.DictWriter(file, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(test_data)
+        # 从数据目录加载测试数据
+        csv_file = "data/wifi_test_data.csv"
         
         # 从CSV文件加载测试数据
         loaded_data = DataProvider.load_from_csv(csv_file)
@@ -86,12 +74,13 @@ class TestDataDriven:
                 wifi_name = data["wifi_name"]
                 password = data["password"]
                 description = data["description"]
+                expected_result = data["expected_result"]
                 
                 with allure.step(f"使用CSV数据[{idx+1}]进行测试: {description}"):
                     with allure.step(f"连接WiFi: {wifi_name}"):
                         # 这里应该是实际的连接逻辑
                         # self.connect_wifi_page.connect_wifi(wifi_name, password)
-                        print(f"CSV数据测试 - WiFi: {wifi_name}, Password: {password}")
+                        print(f"CSV数据测试 - WiFi: {wifi_name}, Password: {password}, Expected: {expected_result}")
                     
                     with allure.step("验证连接结果"):
                         # 实际验证逻辑
@@ -99,52 +88,25 @@ class TestDataDriven:
 
     def test_connect_wifi_with_json_data(self):
         """使用JSON文件中的数据进行WiFi连接测试"""
-        # 创建示例JSON数据文件
-        json_file = "wifi_test_data.json"
-        test_data = [
-            {
-                "test_case": "公司WiFi连接测试",
-                "wifi_name": "inmoglass",
-                "password": "20210108",
-                "expected_result": "连接成功",
-                "priority": "high"
-            },
-            {
-                "test_case": "备用WiFi连接测试",
-                "wifi_name": "inmoglass_backup", 
-                "password": "20210108",
-                "expected_result": "连接成功", 
-                "priority": "medium"
-            },
-            {
-                "test_case": "测试网络连接",
-                "wifi_name": "TestNetwork",
-                "password": "Test123456", 
-                "expected_result": "连接成功",
-                "priority": "low"
-            }
-        ]
-        
-        # 写入JSON文件
-        with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(test_data, f, ensure_ascii=False, indent=2)
+        # 从数据目录加载测试数据
+        json_file = "data/glasses_connection_test_data.json"
         
         # 从JSON文件加载测试数据
         loaded_data = DataProvider.load_from_json(json_file)
         
         with allure.step(f"从JSON文件加载了 {len(loaded_data)} 条测试数据"):
             for idx, data in enumerate(loaded_data):
+                test_case_id = data["test_case_id"]
                 test_case = data["test_case"]
-                wifi_name = data["wifi_name"]
-                password = data["password"]
+                wifi_name = data.get("wifi_name", "N/A")  # WiFi测试数据可能不在这个文件中
                 expected_result = data["expected_result"]
                 priority = data["priority"]
+                description = data["description"]
                 
-                with allure.step(f"[{priority.upper()}] 执行测试用例: {test_case}"):
-                    with allure.step(f"连接WiFi: {wifi_name} (密码: {password})"):
+                with allure.step(f"[{priority.upper()}] 执行测试用例: {test_case_id} - {test_case}"):
+                    with allure.step(f"执行步骤: {description}"):
                         # 这里应该是实际的连接逻辑
-                        # self.connect_wifi_page.connect_wifi(wifi_name, password)
-                        print(f"JSON数据测试 - 用例: {test_case}, WiFi: {wifi_name}")
+                        print(f"JSON数据测试 - 用例: {test_case_id}, 描述: {description}, 优先级: {priority}")
                     
                     with allure.step(f"验证预期结果: {expected_result}"):
                         # 实际验证逻辑
