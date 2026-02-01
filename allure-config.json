@@ -1,0 +1,10 @@
+{
+  "widgets": [
+    "summary",
+    "defects",
+    "timeline"
+  ],
+  "plugins": [
+    "screen-diff"
+  ]
+}

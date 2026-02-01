@@ -77,6 +77,36 @@ class ConnectGlassesPage(BasePageAndroid):
 
 然后，在scripts包中编写具体的测试用例
 
+## 测试报告
+
+本项目集成了Allure测试报告功能，提供更丰富的测试结果展示和分析能力。
+
+### 生成测试报告
+
+1. 运行测试
+   ```bash
+   pytest
+   ```
+
+2. 生成Allure报告
+   ```bash
+   allure generate allure-results -o allure-report --clean
+   ```
+
+3. 查看报告
+   ```bash
+   allure serve allure-results
+   ```
+
+### Allure报告特性
+
+- 丰富的测试信息（标题、描述、标签、步骤详情）
+- 测试执行时间统计和结果分布
+- 按状态、标签分类的测试过滤
+- 失败测试的详细信息和堆栈跟踪
+
+有关详细信息，请参见 TEST_REPORT_GUIDE.md 文件。
+
 ```python
 from common.type import DriverType
 from common.utils import DriverUtils, GlassesUtils
